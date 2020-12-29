@@ -1,0 +1,101 @@
+@import './variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
+
+@font-face{
+    font-family: "Atkinson-Hyperledgible-Regular";
+    src: url("../font/Atkinson/Atkinson-Hyperlegible-Regular-102.ttf");
+}
+@font-face{
+    font-family: "Atkinson-Hyperledgible-Bold";
+    src: url("../font/Atkinson/Atkinson-Hyperlegible-Bold-102.ttf");
+}
+
+@font-face{
+    font-family: "Atkinson-Hyperledgible-Italic";
+    src: url("../font/Atkinson//Atkinson-Hyperlegible-Italic-102.ttf");
+}
+
+
+html{
+    background-color: $white;
+    padding: 2em;
+    body {
+        height: 100%;
+}
+}
+
+.btn-primary {
+    background-color: $pink;
+    color: white;
+  }
+
+.work-page{
+    background-color: $green;
+    border-radius: 8px;
+}
+
+.main-container{
+    display: flex;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 5em;
+}
+
+.greet-info{
+    margin-left: 6em;
+    margin-right: 12em;
+}
+
+
+//fonts
+
+h1 {
+    font-family: "Atkinson-Hyperledgible-Bold";
+    color: $white;
+    font-size: 72px;
+}
+h3 {
+    font-family: "Atkinson-Hyperledgible-Regular";
+    color: $white;
+    font-size: 36px;
+    text-decoration: underline;
+}
+
+p {
+    font-family: "Atkinson-Hyperledgible-Bold";
+    color: $white;
+    font-size: 24px;
+}
+
+
+//Projects
+
+.project-half{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    width: 350px;
+    height: 350px;
+    background: $white;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.project-section{
+    display: flex;
+    flex-direction: row;
+}
+
+.projects{
+    align-items: center;
+}

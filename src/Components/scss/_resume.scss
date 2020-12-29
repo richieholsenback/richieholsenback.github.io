@@ -1,0 +1,89 @@
+@import './variables';
+
+.resume-section{
+    background-color: $blue;
+    padding-bottom: 0.5em;
+    border-radius: 8px;
+    min-height: 93.5%; 
+    min-width: 100%;
+}
+
+.resume-header{
+    font-family: "Pridi";
+}
+
+.text-white{
+    color: $white;
+    font-family: "Atkinson-Hyperledgible-Regular";
+    font-size: 36px;
+}
+.text-pink{
+    color: $pink;
+    font-family: "Atkinson-Hyperledgible-Regular";
+    font-size: 36px;
+}
+
+.exp-section-header{
+    font-size: 48px;
+    text-decoration: underline;
+    margin-top: 2em;
+}
+
+.TechExp{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.ProExp{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.edu-section{
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.exp-descrip {
+    list-style-type: disc;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+.resume-section-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.exp-company{
+    font-family: "Atkinson-Hyperledgible-Bold";
+}
+
+.exp-position {
+    margin-top: -0.75em;
+    font-family: "Atkinson-Hyperledgible-Italic";
+}
+
+.exp-descrip-list{
+    list-style-type: none;
+}
+
+.tech-stack-division{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10em;
+}
+.tech-stack-section{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 4em;
+    margin-top: -3em;
+}
+
+.extra-sapce{
+    margin-top: 1em;
+}
+
+.job-descrip{
+    margin-top: -2em;
+}

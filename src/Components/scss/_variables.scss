@@ -1,0 +1,35 @@
+$green: #7D9283;
+$blue: #5B5B7A;
+$yellow: #ECC663;
+$red: #BD6262;
+$white: #FFF6E9;
+$pink: #FFB5B5;
+$primary: #FFB5B5;
+
+@import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
+
+@font-face{
+    font-family: "Atkinson-Hyperledgible-Regular";
+    src: url("../font/Atkinson/Atkinson-Hyperlegible-Regular-102.ttf");
+}
+@font-face{
+    font-family: "Atkinson-Hyperledgible-Bold";
+    src: url("../font/Atkinson/Atkinson-Hyperlegible-Bold-102.ttf");
+}
+@font-face{
+    font-family: "Atkinson-Hyperledgible-Italic";
+    src: url("../font/Atkinson/Atkinson-Hyperlegible-Italic-102.ttf")
+}
+
+
+// Small tablets and large smartphones (landscape view)
+$screen-sm-min: 576px;
+
+// Small tablets (portrait view)
+$screen-md-min: 768px;
+
+// Tablets and small desktops
+$screen-lg-min: 992px;
+
+// Large tablets and desktops
+$screen-xl-min: 1200px;

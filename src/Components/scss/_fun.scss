@@ -1,0 +1,31 @@
+@import './variables';
+$test : 4;
+
+.fun-page{
+    background-color: $red;
+    border-radius: 8px;
+    height: 100%;
+    width: 100%;
+}
+
+.fun-header{
+    font-family: "Pridi";
+}
+
+.fun-content{
+    padding: 0 5em 0 5em;
+}
+
+.entertainment{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#spotify{
+    margin: 1em 2em 2em 2em;
+}
+
+#youtube{
+    margin: 1em 2em 2em 2em;
+}
+

@@ -1,0 +1,49 @@
+@import './variables';
+
+@mixin colorBG($background){
+    background-color: $background;
+}
+
+body {
+    margin: 2em;
+    background-color: $white;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    list-style-type: none;
+    
+}
+
+.navtext{
+    font-family: 'Atkinson-Hyperledgible-Regular';
+    font-weight: 100;
+    color: $white;
+    font-size: 30px;
+}
+
+.navbar__item{
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.navHeader{
+    font-family: "Pridi";
+    font-size: 36px;
+}
+
+.nav-choices{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-right: 2em;
+}
+
+
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }

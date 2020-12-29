@@ -1,0 +1,31 @@
+@import './variables';
+
+.contact-page{
+    background-color: $yellow;
+    border-radius: 8px;
+    min-height: 93.5%; 
+    min-width: 100%; 
+}
+
+html, body{
+    height: 100%;
+}
+
+.contact-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-left: 10em;
+    padding-right: 10em;
+}
+
+.contact-text{
+    font-size: 72px;
+}
+
+.button-right{
+    margin-left: 2em;
+}
+.button-left{
+    margin-right: 2em;
+}
