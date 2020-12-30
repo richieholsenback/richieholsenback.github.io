@@ -15,8 +15,8 @@ export const Fun = () => {
                     In my spare time I love to skateboard, perform standup comedy, watch movies and listen to music. This is the space in which I impose all of that on you.
             </p>
             <div className="entertainment">
-                <iframe id="spotify" src="https://open.spotify.com/embed/playlist/4CkD7Bai9HfE73rvks4ILH" width="400" height="480" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                <iframe id="youtube" width="853.33" height="480" src="https://www.youtube.com/embed/cr1Ee2OonVo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="spotify" src="https://open.spotify.com/embed/playlist/4CkD7Bai9HfE73rvks4ILH" width="400" height="480" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe id="youtube" width="853.33" height="480" src="https://www.youtube.com/embed/cr1Ee2OonVo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 </div>
             </div>
         </div>
