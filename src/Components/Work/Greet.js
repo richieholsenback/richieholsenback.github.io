@@ -1,7 +1,7 @@
 import { Button, Col, Row } from "react-bootstrap";
 import React from "react"
 import { Image } from "react-bootstrap";
-import photo from '../../images/IMG_0151.jpeg'
+import photo from '../../images/me.png'
 import { NavBar } from "../NavBar/NavBar";
 import "../scss/_greet.scss"
 import "../scss/_variables.scss"
@@ -11,12 +11,12 @@ import resume from "../../images/RichieHolsenbackResumeV3.pdf"
 
 export const GreetingSection = () => {
     return (
-        <div className="work-page">
+        <div className="greet-page">
             <NavBar />
             <div className="main-container">
-                <Image src={photo} width="25%" height="auto" thumbnail fluid />
+                <Image src={photo} thumbnail fluid />
                 <div className="greet-info">
-                    <h1 id="my-name">Richie Holsenback</h1>
+                    <h1 id="greet-title">Richie Holsenback</h1>
                     <p id="greet-blurb">
                         I’m a UI/UX designer and a front end developer. I am excited about the idea of working with
                         agile teams to create beautiful, responsive applications that are user focused and user tested.
@@ -46,7 +46,7 @@ export const GreetingSection = () => {
                             </a>
                         </div>
                         <div id="button" >
-                            <Button size="xl" variant="danger">See My Work</Button>
+                            <Button size="xl" className="btn custom-btn">See My Work</Button>
                         </div>
                     </div>
                 </div>

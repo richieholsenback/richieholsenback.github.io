@@ -8,17 +8,45 @@ $test : 4;
     width: 100%;
 }
 
+#root {
+    height: 100%;
+    margin-bottom: 2em;
+}
+
 .fun-header{
     font-family: "Pridi";
+    font-size: 72px;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+    margin-left: 0.5em;
+    @media only screen and (max-width: 730px) {
+        font-size: 36px;
+        margin-bottom: 1em;
+    }
+}
+
+.fun-text{
+    margin-left: 1.6em;
+    @media only screen and (max-width: 730px) {
+        margin-left: 1.5em;
+    }
+    
 }
 
 .fun-content{
     padding: 0 5em 0 5em;
+    @media only screen and (max-width: 730px) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
 
 .entertainment{
     display: flex;
     justify-content: space-evenly;
+    @media only screen and (max-width: 730px) {
+        flex-direction: column;
+    }
 }
 
 #spotify{

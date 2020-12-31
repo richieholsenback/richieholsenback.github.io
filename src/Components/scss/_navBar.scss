@@ -9,15 +9,15 @@ body {
     background-color: $white;
 }
 
-.navbar {
+#navbar {
     display: flex;
-    flex-wrap: nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     list-style-type: none;
     
 }
 
-.navtext{
+#navtext{
     font-family: 'Atkinson-Hyperledgible-Regular';
     font-weight: 100;
     color: $white;
@@ -29,12 +29,13 @@ body {
     margin-right: 2em;
 }
 
-.navHeader{
+#navHeader{
     font-family: "Pridi";
     font-size: 36px;
+    color: $white;
 }
 
-.nav-choices{
+#nav-choices{
     display: flex;
     flex-flow: row nowrap;
     margin-right: 2em;

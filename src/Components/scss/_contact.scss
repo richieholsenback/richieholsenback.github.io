@@ -1,11 +1,5 @@
 @import './variables';
 
-.contact-page{
-    background-color: $yellow;
-    border-radius: 8px;
-    min-height: 93.5%; 
-    min-width: 100%; 
-}
 
 html, body{
     height: 100%;
@@ -17,10 +11,18 @@ html, body{
     align-items: center;
     padding-left: 10em;
     padding-right: 10em;
+    @media only screen and (max-width: 730px) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
 
 .contact-text{
     font-size: 72px;
+    margin-top: 2em;
+    @media only screen and (max-width: 730px) {
+       font-size: 28px;
+    }
 }
 
 .button-right{
@@ -28,4 +30,11 @@ html, body{
 }
 .button-left{
     margin-right: 2em;
+}
+
+#body{
+    background-color: $yellow;
+    border-radius: 8px;
+    min-height: 93.5%; 
+    min-width: 100%; 
 }

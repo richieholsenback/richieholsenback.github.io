@@ -8,44 +8,77 @@
     min-width: 100%;
 }
 
+#root {
+    height: 100%;
+    margin-bottom: 2em;
+    
+}
+
 .resume-header{
     font-family: "Pridi";
     font-size: 72px;
+    @media only screen and (max-width: 730px) {
+        font-size: 48px;
+    }
 }
 
-.text-white{
-    color: $white;
-    font-family: "Atkinson-Hyperledgible-Regular";
-    font-size: 36px;
-}
-.text-pink{
-    color: $pink;
-    font-family: "Atkinson-Hyperledgible-Regular";
-    font-size: 36px;
-}
-
-.exp-section-header{
+.section-header{
     font-size: 48px;
     text-decoration: underline;
     margin-top: 2em;
-}
-
-.TechExp{
-    margin-left: 4em;
-    margin-right: 4em;
-}
-.ProExp{
-    margin-left: 4em;
-}
-.edu-section{
-    margin-left: 4em;
-    margin-right: 4em;
+    @media only screen and (max-width: 730px) {
+        font-size: 28px;
+        margin-left: -1.2em;
+    }
 }
 
 .exp-descrip {
     list-style-type: disc;
     margin-top: 0.2em;
     margin-bottom: 0.5em;
+    @media only screen and (max-width: 730px) {
+        font-size: 18px;
+    }
+}
+
+.company-name {
+    font-family: "Atkinson-Hyperledgible-Bold";
+    margin-top: 1em;
+    @media only screen and (max-width: 730px) {
+        font-family: "Atkinson-Hyperledgible-Bold";
+        font-size: 24px;
+        margin-top: 0.5em;
+    }
+}
+
+.Exp{
+    margin-left: 4em;
+    margin-right: 4em;
+    @media only screen and (max-width: 730px) {
+        margin-left: 3em;
+        margin-right: 1em;
+    }
+}
+
+.text-white{
+    color: $white;
+    font-family: "Atkinson-Hyperledgible-Regular";
+}    
+.text-pink{
+    color: $pink;
+    font-family: "Atkinson-Hyperledgible-Regular";
+    font-size: 36px;
+}    
+.exp-position {
+    font-family: "Atkinson-Hyperledgible-Italic";
+    @media only screen and (max-width: 730px) {
+        font-size: 18px;
+    }
+}
+
+.edu-section{
+    margin-left: 4em;
+    margin-right: 4em;
 }
 
 .resume-section-header{
@@ -55,19 +88,10 @@
     flex-direction: column;
 }
 
-.exp-company{
-    font-family: "Atkinson-Hyperledgible-Bold";
-    margin-top: 1em;
-    
-}
 
 .stack-title{
     font-family: "Atkinson-Hyperledgible-Bold";
     margin-top: 1em;
-}
-
-.exp-position {
-    font-family: "Atkinson-Hyperledgible-Italic";
 }
 
 .exp-descrip-list{
@@ -79,12 +103,18 @@
     flex-direction: column;
     margin-right: 10em;
     margin-top: 1em;
+    @media only screen and (max-width: 730px) {
+        margin-top: 0;
+    }
 }
 .tech-stack-section{
     display: flex;
     flex-flow: row wrap;
     margin-left: 4em;
     margin-top: 2em;
+    @media only screen and (max-width: 730px) {
+        margin-top: 0;
+    }
 }
 
 .extra-space{
@@ -93,4 +123,7 @@
 
 .indent{
     margin-left: 2em;
+    @media only screen and (max-width: 730px) {
+        margin-left: 0;
+    }
 }

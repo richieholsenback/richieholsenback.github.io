@@ -18,11 +18,13 @@
 
 
 html{
+    height: 100vh;
+    width: 100vw;
     background-color: $white;
     padding: 2em;
-    body {
-        height: 100%;
-}
+    @media only screen and (max-width: 730px) {
+        padding: 0.5em;
+    }
 }
 
 .btn-primary {
@@ -30,26 +32,40 @@ html{
     color: white;
   }
 
-.work-page{
+.greet-page{
     background-color: $green;
     border-radius: 8px;
+    @media only screen and (max-width: 600px) {
+        
+          background-color: lightblue;
+        
+      }
 }
 
 .main-container{
     display: flex;
-    flex-direction: row;
+    flex-flow: row;
     align-items: center;
     padding-left: 10em;
     padding-right: 10em;
     padding-top: 5em;
+    @media only screen and (max-width: 1330px) {
+        flex-direction: column;
+    }
 }
 
 .greet-info{
     margin-left: 6em;
 }
 
-#my-name{
-    font-size: 120px;
+#greet-title{
+    font-size: 100px;
+    @media only screen and (max-width: 730px) {
+        font-size: 72px;
+    }
+    @media only screen and (max-width: 560px) {
+        font-size: 48px;
+    }
 }
 
 #greet-blurb{

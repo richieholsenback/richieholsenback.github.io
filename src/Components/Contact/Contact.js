@@ -13,7 +13,7 @@ export const ContactSection = () => {
                 </p>
                 <div className="button-section">
                     <a href="https://github.com/richieholsenback" target="_blank"><Button className="button-left">Check out my LinkedIn</Button></a>
-                    <Button className="button-right" >Send me an Email</Button>{' '}
+                    <a href="mailto:richieholsenback@gmail.com" target="_blank"><Button className="button-right" >Send me an Email</Button></a>
                 </div>
             </div>
         </div>

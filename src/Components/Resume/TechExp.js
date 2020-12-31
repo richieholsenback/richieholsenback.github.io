@@ -2,10 +2,10 @@ import "../scss/_resume.scss"
 
 export const TechExp = () => {
     return (
-        <div className="TechExp">
-            <h2 className="exp-section-header text-white">Technical Experience</h2>
+        <div className="Exp">
+            <h2 className="section-header text-white">Technical Experience</h2>
             <div className="indent">
-                <h4 className="exp-company text-white">Nashville Software School</h4>
+                <h4 className="company-name text-white">Nashville Software School</h4>
                 <h5 className="exp-position text-pink">Front-End UI/UX Developer | August 2020 - Present</h5>
                 <ul className="job-descrip">
                     <li className="exp-descrip text-white">Develop dynamic single-page applications using React in addition to modern ES6+ JavaScript</li>

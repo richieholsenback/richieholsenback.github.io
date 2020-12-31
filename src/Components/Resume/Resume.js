@@ -5,6 +5,7 @@ import { TechExp } from "./TechExp"
 import "../scss/_resume.scss"
 import { TechStack } from "./TechStack"
 import { NavBar } from "../NavBar/NavBar"
+import resume from "../../images/RichieHolsenbackResumeV3.pdf"
 
 export const Resume = () => {
     return (
@@ -12,7 +13,9 @@ export const Resume = () => {
             <NavBar />
             <div className="resume-section-header">
                 <h1 className="resume-header">Resumé</h1>
+                <a href={resume} download>
                 <Button>Download as PDF</Button>
+                </a>
             </div>
             <TechExp />
             <ProExp />
