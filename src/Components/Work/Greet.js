@@ -45,26 +45,32 @@ export const GreetingSection = () => {
                             </svg>
                             </a>
                         </div>
-                        <div id="button" >
-                            <Button size="xl" className="btn custom-btn">See My Work</Button>
-                        </div>
+                        {/* <div id="button" >
+                            <Button size="xl" className="btn custom-btn" onclick="document.getElementById('project-half').scrollIntoView()">See My Work</Button>
+                        </div> */}
                     </div>
                 </div>
                 </div>
-                <div className="project-half">
+                <div className="project-half" id="project-half">
                     <h3 id="project-header">Recent Work</h3>
                     <Row className="project-section" fluid>
                         <Col className="project-card">
                             <div className="square"></div>
-                            <a href="https://github.com/richieholsenback/laughtrack" target="_blank"><h4 className="project-name text-white">Laugh Track</h4></a>
+                            <a href="https://github.com/richieholsenback/laughtrack" target="_blank">
+                                <h4 className="project-name">Laugh Track</h4>
+                            </a>
                         </Col>
                         <Col className="project-card">
                             <div className="square"></div>
-                            <a href="https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io" target="_blank"><h4 className="project-name text-white">NSS Cohort 43 Website</h4></a>
+                            <a href="https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io" target="_blank">
+                                <h4 className="project-name">NSS Cohort 43 Website</h4>
+                            </a>
                         </Col>
                         <Col className="project-card">
                             <div className="square"></div>
-                            <a href="https://github.com/richieholsenback/laughtrack" target="_blank"><h4 className="project-name text-white">Laugh Track</h4></a>
+                            <a href="https://github.com/richieholsenback/laughtrack" target="_blank">
+                                <h4 className="project-name">Laugh Track</h4>
+                            </a>
                         </Col>
                     </Row>
             </div>
