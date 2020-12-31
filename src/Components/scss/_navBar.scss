@@ -14,7 +14,11 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     list-style-type: none;
-    
+    @media only screen and (max-width: 990px) {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
 }
 
 #navtext{
@@ -43,7 +47,7 @@ body {
     font-size: 48px;
     color: $white;
     @media only screen and (min-width: 1101px) {
-        padding: 0.5em;
+        
         display: none;
     }
 }
@@ -52,6 +56,11 @@ body {
     display: flex;
     flex-flow: row nowrap;
     margin-right: 2em;
+    @media only screen and (max-width: 990px) {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
 }
 
 

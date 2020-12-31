@@ -14,7 +14,7 @@ export const GreetingSection = () => {
         <div className="greet-page">
             <NavBar />
             <div className="main-container">
-                <Image src={photo} thumbnail fluid />
+                <Image id="prof-pic" src={photo} thumbnail fluid />
                 <div className="greet-info">
                     <h1 id="greet-title">Richie Holsenback</h1>
                     <p id="greet-blurb">
@@ -60,7 +60,7 @@ export const GreetingSection = () => {
                         </Col>
                         <Col className="project-card">
                             <div className="square"></div>
-                            <a href="https://github.com/richieholsenback/laughtrack" target="_blank"><h4 className="project-name text-white">Laugh Track</h4></a>
+                            <a href="https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io" target="_blank"><h4 className="project-name text-white">NSS Cohort 43 Website</h4></a>
                         </Col>
                         <Col className="project-card">
                             <div className="square"></div>
