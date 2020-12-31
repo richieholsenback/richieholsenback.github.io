@@ -21,11 +21,12 @@ const headerBrand = () => {
 export const NavBar = props => {
     return (
         <>
-            <Navbar bg="light" expand="lg" bg="transparent">
-                <Navbar.Brand id="navHeader" className="navtext navbar__item navbar__link" href="/">Richie Holsenback</Navbar.Brand>
+            <Navbar expand="lg" bg="transparent">
+                <Navbar.Brand id="navHeader1" className="navtext navbar__item navbar__link" href="/">Richie Holsenback</Navbar.Brand>
+                <Navbar.Brand id="navHeader2" className="navtext navbar__item navbar__link" href="/">RH</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                    <Nav defaultActiveKey="/" as="ul">
+                    <Nav defaultActiveKey="/" as="ul" >
                         <div id="navbar">
                         <div id="nav-choices">
                             <Nav.Item className="navbar__item">

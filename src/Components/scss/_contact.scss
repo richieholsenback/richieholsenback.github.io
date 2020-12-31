@@ -17,6 +17,13 @@ html, body{
     }
 }
 
+.contact-page {
+    background-color: $yellow;
+    border-radius: 8px;
+    min-height: 93.5%; 
+    min-width: 100%; 
+}
+
 .contact-text{
     font-size: 72px;
     margin-top: 2em;
@@ -33,8 +40,5 @@ html, body{
 }
 
 #body{
-    background-color: $yellow;
-    border-radius: 8px;
-    min-height: 93.5%; 
-    min-width: 100%; 
+    background-color: $white;
 }
