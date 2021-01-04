@@ -37,7 +37,8 @@ html{
     border-radius: 8px;
     border-bottom:  solid $white 1.5em;
     padding-bottom: 1em;
-    height: 100%;
+    min-height: 100%; 
+    min-width: 100%; 
     @media only screen and (max-width: 730px) {
         border-bottom: solid $white 0.5em;
       }
@@ -81,6 +82,12 @@ html{
     }
     @media only screen and (max-width: 560px) {
         font-size: 48px;
+    }
+    @media only screen and (max-width: 560px) {
+        font-size: 48px;
+    }
+    @media only screen and (max-width: 315px) {
+        font-size: 36px;
     }
 }
 
@@ -167,4 +174,21 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#project-pics {
+    min-width: 447px;
+    min-height: 335px;
+    @media only screen and (max-width: 480px) {
+        min-width: 360px;
+        min-height: 270px;
+    } 
+    @media only screen and (max-width: 380px) {
+        min-width: 300px;
+        min-height: 225px;
+    } 
+    @media only screen and (max-width: 315px) {
+        min-width: 280px;
+        min-height: 210px;
+    }
 }
