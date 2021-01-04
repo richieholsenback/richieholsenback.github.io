@@ -3,8 +3,8 @@ import "../scss/_resume.scss"
 
 export const TechStack = () => {
     return (
-        <div className="Exp">
-        <Row>
+        <div className="Exp" >
+        <Row id="tech-stack-container">
             <h2 className="section-header text-white">Tech Stack</h2>
             <div className="tech-stack-section indent">
                 <Col s={4} className="tech-stack-division">
