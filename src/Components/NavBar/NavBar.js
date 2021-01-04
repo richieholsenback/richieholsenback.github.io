@@ -21,7 +21,7 @@ const headerBrand = () => {
 export const NavBar = props => {
     return (
         <>
-            <Navbar expand="lg" bg="transparent">
+            <Navbar expand="lg" bg="transparent" id="navbar-container">
                 <Navbar.Brand id="navHeader1" className="navtext navbar__item navbar__link" href="/">Richie Holsenback</Navbar.Brand>
                 <Navbar.Brand id="navHeader2" className="navtext navbar__item navbar__link" href="/">RH</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -17,7 +17,7 @@ export const Fun = () => {
                 <div className="entertainment">
                         <iframe id="spotify" src="https://open.spotify.com/embed/playlist/4CkD7Bai9HfE73rvks4ILH" width="auto" height="580" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     
-                        <iframe id="youtube" src="https://www.youtube.com/embed/cr1Ee2OonVo" width="83%" height="auto" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe id="youtube" src="https://www.youtube.com/embed/cr1Ee2OonVo" width="50%" height="auto" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     
                 </div>
             </div>

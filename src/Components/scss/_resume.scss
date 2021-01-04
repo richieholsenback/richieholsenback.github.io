@@ -6,6 +6,11 @@
     border-radius: 8px;
     min-height: 93.5%; 
     min-width: 100%;
+    border-bottom:  solid $white 1.5em;
+    padding-bottom: 4em;
+    @media only screen and (max-width: 730px) {
+        border-bottom: solid $white 0.5em;
+      }
 }
 
 #root {
@@ -17,6 +22,7 @@
 .resume-header{
     font-family: "Pridi";
     font-size: 72px;
+    padding: 1em 0 0.5em 0;
     @media only screen and (max-width: 730px) {
         font-size: 48px;
     }
@@ -69,7 +75,7 @@
 .text-pink{
     color: $pink;
     font-family: "Atkinson-Hyperledgible-Regular";
-    font-size: 36px;
+    font-size: 30px;
 }    
 .exp-position {
     font-family: "Atkinson-Hyperledgible-Italic";
@@ -114,10 +120,8 @@
 .tech-stack-division{
     display: flex;
     flex-direction: column;
-    margin-right: 10em;
-    margin-top: 1em;
     @media only screen and (max-width: 730px) {
-        margin-top: 0;
+        margin-top: 1em;
     }
 }
 .tech-stack-section{
@@ -149,3 +153,14 @@
     }
 }
 
+#resume-button {
+    margin-right: -0.001em;
+    margin-top: -0.3em;
+}
+
+#btn {
+    background-color: $pink !important;
+    font-family: "Atkinson-Hyperledgible-Bold";
+    font-size: 24px;
+    border: $pink;
+}

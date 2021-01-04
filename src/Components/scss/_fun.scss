@@ -1,10 +1,14 @@
 @import './variables';
 $test : 4;
 
+html {
+    height: 100vh;
+}
+
 .fun-page{
     background-color: $red;
     border-radius: 8px;
-
+    height: 100%;
 }
 
 #root {
