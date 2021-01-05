@@ -44,6 +44,10 @@ html{
       }
 }
 
+#LT {
+    border: none;
+}
+
 #greet-page-content {
     display: flex;
     flex-direction: column;
@@ -159,14 +163,6 @@ p {
     align-items: center;
 }
 
-.square {
-    width: 350px;
-    height: 350px;
-    background: $white;
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
 .project-section{
     display: flex;
     flex-flow: row wrap;
@@ -185,6 +181,8 @@ p {
 #project-pics {
     min-width: 447px;
     min-height: 335px;
+    max-width: 741px;
+    max-height: 556px;
     @media only screen and (max-width: 480px) {
         min-width: 360px;
         min-height: 270px;
@@ -197,4 +195,47 @@ p {
         min-width: 280px;
         min-height: 210px;
     }
+}
+
+// Case Studies
+
+#case-study-back {
+    color: $white;
+    border: none;
+    font-size: 24px;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-decoration: underline;
+    background-color: $green;
+    &:hover {
+        color: $blue;
+    }
+}
+
+.case-study-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    h2 {
+        color: $white;
+        font-size: 48px;
+        font-family: "Atkinson-Hyperledgible-Bold";
+    }
+    a {
+        color: $white;
+        text-decoration: underline;
+        margin: 1em;
+        font-size: 30px;
+        font-family: "Atkinson-Hyperledgible-Regular";
+        &:hover {
+            color: $blue;
+        }
+    }
+}
+
+#case-study-pic {
+    max-width: 2000px;
+    height: auto;
 }
