@@ -1,7 +1,6 @@
 import React from "react"
 import { NavBar } from "../NavBar/NavBar"
 import "../scss/_fun.scss"
-import photo from "../../images/birbwhite.png"
 
 export const Fun = () => {
     return (

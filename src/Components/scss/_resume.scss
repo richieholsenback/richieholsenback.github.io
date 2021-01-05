@@ -117,6 +117,14 @@
     }
 }
 
+.tech-descrip-list{
+    list-style-type: disc;
+    font-size: 24px;
+    @media only screen and (max-width: 730px) {
+        font-size: 18px;
+    }
+}
+
 .tech-stack-division{
     display: flex;
     flex-direction: column;

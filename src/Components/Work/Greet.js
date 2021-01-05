@@ -1,14 +1,13 @@
-import { Button, Col, Modal, Row } from "react-bootstrap";
+import { Button, Row } from "react-bootstrap";
 import React, { useState } from "react"
 import { Image } from "react-bootstrap";
 import photo from '../../images/me.png'
-import LTphoto from '../../images/isometric-web-pages-mockup.png'
 import { NavBar } from "../NavBar/NavBar";
 import "../scss/_greet.scss"
 import "../scss/_variables.scss"
-import { Link } from "react-router-dom";
 import resume from "../../images/RichieHolsenbackResumeV3.pdf"
 import { LaughTrack, ClassSite, FinalCap } from "./Projects"
+import { Link } from "react-scroll";
 
 export const GreetingSection = () => {
     return (
@@ -18,7 +17,7 @@ export const GreetingSection = () => {
                 <div className="main-container">
                     <Image id="prof-pic" src={photo} thumbnail fluid />
                     <div className="greet-info">
-                        <h1 id="greet-title">Richie Holsenback</h1>
+                        <h1 id="greet-title"><span id="header-im">I'm </span>Richie Holsenback</h1>
                         <p id="greet-blurb">
                             I’m a UI/UX designer and a front end developer. I am excited about the idea of working with
                             agile teams to create beautiful, responsive applications that are user focused and user tested.
@@ -47,9 +46,9 @@ export const GreetingSection = () => {
                                     </svg>
                                 </a>
                             </div>
-                            {/* <div id="button" >
-                            <Button size="xl" className="btn custom-btn" onclick="document.getElementById('project-half').scrollIntoView()">See My Work</Button>
-                        </div> */}
+                            <div id="button" >
+                            <Link activeClass="active" to="project-header" spy={true} smooth={true}><Button size="xl" id="btn">See My Work</Button></Link>
+                        </div>
                         </div>
                     </div>
                 </div>
