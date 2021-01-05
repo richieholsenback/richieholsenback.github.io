@@ -6,6 +6,7 @@ import { GreetingSection } from "./Work/Greet";
 import { Fun } from "./Fun/Fun";
 import "./scss/_navBar.scss"
 import { LaughTrackPage } from "./Work/LaughTrack";
+import { CohortPage } from "./Work/CohortSite";
 
 export const ApplicationViews = props => {
     return (
@@ -37,7 +38,7 @@ export const ApplicationViews = props => {
             
             <Route exact path='/cohort-site'>
                 {/* <NavBar /> */}
-                <LaughTrackPage />
+                <CohortPage />
             </Route>
         </>
     )
