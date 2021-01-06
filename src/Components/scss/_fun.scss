@@ -10,8 +10,9 @@ html {
     border-radius: 8px;
     min-height: 100%; 
     min-width: 100%; 
-    @media only screen and (max-height: 1465px) {
-        border-bottom: 2em;
+    border-bottom: solid $white 1.5em;
+    @media only screen and (max-width: 375px) {
+        border-bottom: solid $white 0.5em;
     }
 }
 
@@ -41,7 +42,7 @@ html {
 }
 
 .fun-content{
-    padding: 0 5em 0 5em;
+    
     @media only screen and (max-width: 730px) {
         padding-left: 0;
         padding-right: 0;
@@ -51,43 +52,102 @@ html {
 .entertainment{
     display: flex;
     justify-content: space-evenly;
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     align-items: center;
     justify-content: center;
     @media only screen and (max-width: 730px) {
         flex-direction: column;
+        justify-content: center;
     }
 }
 
 #spotify{
     margin: 1em 2em 2em 2em;
-    @media only screen and (max-width: 800px) {
-        margin: 1em 1em 2em 0;
-        width: 70%;
+    
+    @media only screen and (max-width: 500px) {
+        margin: 1em 0.2em 2em 0.2em;
+        width: 300px ; 
+        height: 540px ;
     }
 }
 
 #youtube{
     margin: 1em 2em 2em 2em;
-    @media only screen and (min-width: 1600px) {
         width: 1280px ; 
         height: 720px ;
-        margin: 1em 0 2em 0;
-    }
-    @media only screen and (min-width: 800px) {
-        width: 853px ; 
+        
+    @media only screen and (max-width: 1380px) {
+        width: 854px ; 
         height: 480px ;
-        margin: 1em 0 2em 0;
     }
-    @media only screen and (min-width: 731px) {
-        width: 622px ; 
-        height: 350px ;
-        margin: 1em 0 2em 0;
+    @media only screen and (max-width: 960px) {
+        width: 640px ; 
+        height: 360px ;
     }
-    @media only screen and (min-width: 600px) {
-        width: 540px ; 
-        height: 304px ;
-        margin: 1em 0 2em 0;
+    @media only screen and (max-width: 700px) {
+        width: 426px ; 
+        height: 240px ;
     }
+    @media only screen and (max-width: 500px) {
+        margin: 1em 0.2em 2em 0.2em;
+        width: 310px ; 
+        height: 174px ;
+    }
+    @media only screen and (max-width: 500px) {
+        margin: 1em 0.2em 2em 0.2em;
+        width: 310px ; 
+        height: 174px ;
+    }
+    @media only screen and (max-width: 320px) {
+        margin: 1em 0 2em 0;
+        width: 300px ; 
+        height: 169px ;
+    }
+    
 }
 
+.fun-header-container{
+    display: flex;
+    align-items: center;
+}
+
+#thanks{
+    width: 40% ; 
+    height: 40% ;
+    margin: 2em;
+}
+
+#goose{
+    width: 25% ; 
+    height: 25% ;
+}
+
+#duck{
+    width: 30% ; 
+    height: 30% ;
+}
+
+#hold{
+    width: 35% ; 
+    height: 35% ;
+}
+
+.fun{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.music {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.comedy {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    
+}
