@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## The Idea
 
-My grandparents had old magazines tucked away in closets. They'd be for hunting and fishing, celebrity gossip, the Red Book and everything in between. I was always enamored by the styles. They had faded due to time but everything looked so beautiful, still. I loved the faded colors, the creamy whites and the illustrations. It felt so classy yet simplistic. I never bought any cigarettes that could help to "improve my overall health" or giant hairdryers like you'd see in the movies, but the styles and motifs of those designs stuck like glue.
+I loved going over to my grandparents house and finding the tons of old magazines they had tucked away in closets. They'd be about hunting and fishing, celebrity gossip, current affairs and everything in between. I've never been much of a huntsman, fisherman, celebrity gossiper and, as a child, certainly did not care about the speculation surrounding Reagan, but I was always enamored by the styles of the advertisements. They hadn't all aged gracefully but everything looked so beautiful, still. I loved the faded colors, the creamy whites and the illustrations. How they conveyed the idea of the perfect life many years ago. It felt so classy yet simplistic. I never bought any cigarettes that could help to "improve my overall health" or giant hairdryers like you'd see in the movies, but the styles and motifs of those ad designs stuck like glue.
 
 I want my portfolio to mimic a similar style. The rounded corners, the serifed fonts, the faded colors. I find it all gorgeous.
 
