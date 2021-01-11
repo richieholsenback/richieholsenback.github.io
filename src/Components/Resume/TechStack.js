@@ -5,43 +5,43 @@ export const TechStack = () => {
     return (
         <div className="Exp" >
         <Row id="tech-stack-container">
-            <h2 className="section-header text-white">Tech Stack</h2>
+            <h2 className="section-header text-w">Tech Stack</h2>
             <div className="tech-stack-section indent">
                 <Col s={4} className="tech-stack-division">
-                    <h4 className="stack-title text-white">UX</h4>
+                    <h4 className="stack-title text-w">UX</h4>
                     <ul className="tech-descrip">
-                        <li className="tech-descrip-list text-white">Information Architecture</li>
-                        <li className="tech-descrip-list text-white">Persona Development</li>
-                        <li className="tech-descrip-list text-white">Wireframing</li>
-                        <li className="tech-descrip-list text-white">Prototyping</li>
+                        <li className="tech-descrip-list text-w">Information Architecture</li>
+                        <li className="tech-descrip-list text-w">Persona Development</li>
+                        <li className="tech-descrip-list text-w">Wireframing</li>
+                        <li className="tech-descrip-list text-w">Prototyping</li>
                     </ul>
                 </Col>
                 <Col s={4} className="tech-stack-division">
-                    <h4 className="stack-title text-white">Development</h4>
+                    <h4 className="stack-title text-w">Development</h4>
                     <ul className="tech-descrip">
-                        <li className="tech-descrip-list text-white">HTML</li>
-                        <li className="tech-descrip-list text-white">CSS</li>
-                        <li className="tech-descrip-list text-white">JavaScript</li>
-                        <li className="tech-descrip-list text-white">SCSS</li>
+                        <li className="tech-descrip-list text-w">HTML</li>
+                        <li className="tech-descrip-list text-w">CSS</li>
+                        <li className="tech-descrip-list text-w">JavaScript</li>
+                        <li className="tech-descrip-list text-w">SCSS</li>
                     </ul>
                 </Col>
                 <Col s={4} className="tech-stack-division">
-                    <h4 className="stack-title text-white">Design</h4>
+                    <h4 className="stack-title text-w">Design</h4>
                     <ul className="tech-descrip">
-                        <li className="tech-descrip-list text-white">Web</li>
-                        <li className="tech-descrip-list text-white">Responsive</li>
-                        <li className="tech-descrip-list text-white">Interaction</li>
-                        <li className="tech-descrip-list text-white">Application/Interface</li>
+                        <li className="tech-descrip-list text-w">Web</li>
+                        <li className="tech-descrip-list text-w">Responsive</li>
+                        <li className="tech-descrip-list text-w">Interaction</li>
+                        <li className="tech-descrip-list text-w">Application/Interface</li>
                     </ul>
                 </Col>
                 <Col s={4} className="tech-stack-division">
-                    <h4 className="stack-title text-white">Creative</h4>
+                    <h4 className="stack-title text-w">Creative</h4>
                     <ul className="tech-descrip">
-                        <li className="tech-descrip-list text-white">Photoshop</li>
-                        <li className="tech-descrip-list text-white">Illustrator</li>
-                        <li className="tech-descrip-list text-white">Lightroom</li>
-                        <li className="tech-descrip-list text-white">Premiere Pro</li>
-                        <li className="tech-descrip-list text-white">After Effects</li>
+                        <li className="tech-descrip-list text-w">Photoshop</li>
+                        <li className="tech-descrip-list text-w">Illustrator</li>
+                        <li className="tech-descrip-list text-w">Lightroom</li>
+                        <li className="tech-descrip-list text-w">Premiere Pro</li>
+                        <li className="tech-descrip-list text-w">After Effects</li>
                     </ul>
                 </Col>
             </div>

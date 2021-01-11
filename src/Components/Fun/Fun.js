@@ -24,7 +24,7 @@ export const Fun = () => {
                     <div className="fun">
                         <Image id="goose" src={skatebird} />
                         <div className="music">
-                            <h3>My recent jams</h3>
+                            <h3 id="fun-div-header">My recent jams</h3>
                             <iframe id="spotify" src="https://open.spotify.com/embed/playlist/4CkD7Bai9HfE73rvks4ILH" width="400" height="720" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                         </div>
                         <Image id="duck" src={duck1} />
@@ -32,7 +32,7 @@ export const Fun = () => {
                     <Image id="hold" src={breakskate} />
 
                     <div className="comedy">
-                        <h3>A playlist of my standup</h3>
+                        <h3 id="fun-div-header">A playlist of my standup</h3>
                         <iframe id="youtube" src="https://www.youtube.com/embed/videoseries?list=PLM2osoqpH8dJF73pR-y5MEYP_KVZMSpd-" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
                     </div>

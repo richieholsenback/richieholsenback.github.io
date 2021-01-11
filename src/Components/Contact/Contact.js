@@ -1,5 +1,6 @@
-import { Button } from "react-bootstrap"
+import { Button, Image } from "react-bootstrap"
 import { NavBar } from "../NavBar/NavBar"
+import shake from '../../images/handshake.png'
 import "../scss/_contact.scss"
 
 export const ContactSection = () => {
@@ -27,6 +28,7 @@ export const ContactSection = () => {
                         </Button>
                         </a>
                 </div>
+                <Image id="shake" src={shake} />
             </div>
         </div>
     )
