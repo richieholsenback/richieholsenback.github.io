@@ -14,8 +14,8 @@ You can visit a live version of my portfolio at www.RichieHolsenback.com. If you
 
 * Download the repository from [GitHub](https://github.com/richieholsenback/web-portfolio)
 * Go into the command line and run
-    * ```npm install
-    * npm start```
+    * ```npm install ```
+    * ```npm start```
 * You will see a localhost URL, copy and paste this into your browser if it does not pull up on it's own
 * Explore!
 
