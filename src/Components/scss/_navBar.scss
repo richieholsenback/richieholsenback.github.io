@@ -26,11 +26,14 @@ body {
     font-weight: 100;
     color: $white;
     font-size: 30px;
+    &:hover {
+        text-decoration: underline $white;
+      }
 }
 
 .navbar__item{
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 4em; 
+    
 }
 
 #navHeader1{
@@ -68,6 +71,7 @@ a:link {
   a:visited {
     text-decoration: none;
   }
+  
 
   #navbar-container {
       padding-top: 2em;
