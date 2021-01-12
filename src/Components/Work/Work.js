@@ -17,7 +17,7 @@ export const ProjectPage = () => {
             <NavBar />
             <div id="projects-all">
                 <h3 id="project-header">Recent Work</h3>
-                <Container>
+                <Container id="Container">
                     <Row id="margin" noGutters>
                         <Col xl={6}>
                             <Link to="/laugh-track" >

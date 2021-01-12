@@ -89,8 +89,6 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    margin: 2em 0;
-    padding: 1em;
     border-radius: 8px;
     @media only screen and (max-width: 520px) {
         flex-direction: column;
@@ -130,7 +128,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin: 2em 0;
+        margin: 1em 0;
         padding: 1em;
         border-radius: 8px;
     }
@@ -144,8 +142,12 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 2em 0;
+        margin: 1em 0;
         padding: 1em;
         border-radius: 8px;
     }
+}
+
+#Container {
+    padding-bottom: 2em;
 }
