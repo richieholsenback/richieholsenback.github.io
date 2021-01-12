@@ -1,0 +1,151 @@
+@import './variables';
+
+.project-name{
+    font-family: "Atkinson-Hyperledgible-Regular";
+    font-size: 30px;
+    margin: 1em 0;
+    color: $white;
+}
+
+#projects-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 1em 2em;
+}
+
+#btn-sm {
+    background-color: $pink !important;
+    font-family: "Atkinson-Hyperledgible-Regular";
+    font-size: 24px;
+    border: $pink;
+}
+
+.case-study-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 2em 1em 2em;
+    h2 {
+        color: $white;
+        font-size: 48px;
+        font-family: "Atkinson-Hyperledgible-Bold";
+    }
+    a {
+        color: $white;
+        text-decoration: underline;
+        margin: 1em;
+        font-size: 30px;
+        font-family: "Atkinson-Hyperledgible-Regular";
+        &:hover {
+            color: $blue;
+        }
+    }
+}
+
+#case-study-pic {
+    max-width: 2000px;
+    height: auto;
+}
+
+.case-study-descrip {
+    padding: 0 2em 0 2em ;
+    @media only screen and (max-width: 520px) {
+        padding: 0;
+    }
+}
+
+#project-pics {
+    min-width: 447px;
+    min-height: 335px;
+    max-width: 447px;
+    max-height: 335px;
+}
+
+#case-study-back {
+    color: $white;
+    border: none;
+    font-size: 24px;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-decoration: underline;
+    background-color: $green;
+    &:hover {
+        color: $blue;
+    }
+    @media only screen and (max-width: 520px) {
+        margin-left: 0;
+    }
+}
+
+#margin {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 2em 0;
+    padding: 1em;
+    border-radius: 8px;
+    @media only screen and (max-width: 520px) {
+        flex-direction: column;
+    }
+}
+
+.project-title {
+    color: $white;
+    font-family: "Pridi";
+    font-size: 36px;
+}
+
+.project-text {
+    font-family: "Atkinson-Hyperledgible-Regular";
+}
+
+.date {
+    border-bottom: 1px solid $white;
+}
+
+#project-header {
+    font-family: "Atkinson-Hyperledgible-Regular";
+    font-size: 48px;
+    text-decoration: none;
+    margin: 2em;
+}
+
+#live-link {
+    margin-top: 0;
+}
+
+#large-screen {
+    @media only screen and (max-width: 1200px) {
+    display: none;
+    }
+    @media only screen and (min-width: 1200px) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 2em 0;
+        padding: 1em;
+        border-radius: 8px;
+    }
+}
+
+#small-screen {
+    @media only screen and (min-width: 1200px) {
+    display: none;
+    }
+    @media only screen and (max-width: 1199px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2em 0;
+        padding: 1em;
+        border-radius: 8px;
+    }
+}

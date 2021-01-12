@@ -1,21 +1,26 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { NavBar } from "../NavBar/NavBar";
-import "../scss/_greet.scss"
+import "../scss/_work.scss"
 import "../scss/_variables.scss"
 import LTphoto from '../../images/LTHome.png'
 import { Button, Image } from "react-bootstrap";
+import ScrollToTop from "./Greet";
+import C43photo from '../../images/c43Pre.png'
 
 export const CohortPage = () => {
+    
     return (
         <div className="greet-page" id="LT">
             <NavBar />
+            <ScrollToTop />
             <div className="case-study-page">
-                <Link to="/" ><Button id="case-study-back" variant="primary">Back</Button></Link>
+                <Link to="/work" ><Button id="case-study-back" variant="primary">Back</Button></Link>
                 <div className="case-study-content">
                     <h2 className="case-study-header">Cohort 43 Class Website</h2>
-                    <Image id="case-study-pic" src={LTphoto} width="80%" height="auto" />
-                    <a href="https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io" target="_blank" rel="noreferrer">Github Repository</a>
+                    <Image id="case-study-pic" src={C43photo} width="80%" height="auto" />
+                    <a id="github-link" href="https://github.com/nss-day-cohort-43/nss-day-cohort-43.github.io" target="_blank" rel="noreferrer">Github Repository</a>
+                    <a id="live-link" href="https://nss-day-cohort-43.github.io/" target="_blank" rel="noreferrer">Live Site</a>
                     <div className="case-study-descrip">
                         <p>I was one of the many people who lost their job due to the COVID-19 pandemic. I used that time to learn how to code and attended the Nashville Software School. The bootcamp was a 6 month intense course that taught me and my classmates all about front-end development, UI and UX principles and working in an agile environment.</p>
                             <br />

@@ -1,17 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { NavBar } from "../NavBar/NavBar";
-import "../scss/_greet.scss"
+import "../scss/_work.scss"
 import "../scss/_variables.scss"
 import LTphoto from '../../images/LTHome.png'
 import { Button, Image } from "react-bootstrap";
+import ScrollToTop from "./Greet";
 
 export const LaughTrackPage = () => {
     return (
         <div className="greet-page" id="LT">
             <NavBar />
+            <ScrollToTop />
             <div className="case-study-page">
-                <Link to="/" ><Button id="case-study-back" variant="primary">Back</Button></Link>
+                <Link to="/work" ><Button id="case-study-back" variant="primary">Back</Button></Link>
                 <div className="case-study-content">
                     <h2 className="case-study-header">Laugh Track</h2>
                     <Image id="case-study-pic" src={LTphoto} width="80%" height="auto" />

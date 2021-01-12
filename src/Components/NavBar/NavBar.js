@@ -29,7 +29,7 @@ export const NavBar = props => {
                         <div id="navbar">
                         <div id="nav-choices">
                             <Nav.Item className="navbar__item">
-                                <Nav.Link className="navbar__link" href="/">
+                                <Nav.Link className="navbar__link" href="/work">
                                     <h4 id="navtext">Work</h4>
                                 </Nav.Link>
                             </Nav.Item>

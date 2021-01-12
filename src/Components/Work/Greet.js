@@ -1,5 +1,5 @@
 import { Button, Col, Row } from "react-bootstrap";
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Image } from "react-bootstrap";
 import photo from '../../images/me.png'
 import { NavBar } from "../NavBar/NavBar";
@@ -7,7 +7,17 @@ import "../scss/_greet.scss"
 import "../scss/_variables.scss"
 import resume from "../../images/RichieHolsenbackResumeV3.pdf"
 import LTphoto from '../../images/isometric-web-pages-mockup.png'
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+
+export default function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 export const GreetingSection = () => {
     return (
@@ -42,41 +52,12 @@ export const GreetingSection = () => {
                                 </a>
                             </div>
                             <div id="button" >
-                                {/* <Button size="xl" id="btn">See My Work</Button> */}
+                                <Link to="/work"><Button size="xl" id="btn">See My Work</Button></Link>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="project-half" id="project-half">
-
-                    <h3 id="project-header">Recent Work</h3>
-                    <Row className="project-section" >
-                        <Col id="project-card-container">
-
-                            <Link to="/laugh-track" id="project-card">
-                                <Image id="project-pics" src={LTphoto} width="85%" height="auto" />
-                                <h4 className="project-name">Laugh Track</h4>
-                            </Link>
-
-                        </Col>
-                        <Col id="project-card-container">
-
-                            <Link to="/cohort-site" id="project-card">
-                                <Image id="project-pics" src={LTphoto} width="85%" height="auto" />
-                                <h4 className="project-name">Cohort 43 Class Site</h4>
-                            </Link>
-
-                        </Col>
-                        <Col id="project-card-container">
-                            <Link to="/cohort-site" id="project-card">
-
-                                <Image id="project-pics" src={LTphoto} width="85%" height="auto" />
-                                <h4 className="project-name">Final Capstone</h4>
-
-                            </Link>
-                        </Col>
-                    </Row>
-                </div >
+               
             </div>
         </div >
     )

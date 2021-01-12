@@ -7,6 +7,7 @@ import { Fun } from "./Fun/Fun";
 import "./scss/_navBar.scss"
 import { LaughTrackPage } from "./Work/LaughTrack";
 import { CohortPage } from "./Work/CohortSite";
+import { ProjectPage } from "./Work/Work";
 
 export const ApplicationViews = props => {
     return (
@@ -14,6 +15,11 @@ export const ApplicationViews = props => {
             <Route exact path='/'>
                 {/* <NavBar /> */}
                 <GreetingSection />
+            </Route>
+            
+            <Route exact path='/work'>
+                {/* <NavBar /> */}
+                <ProjectPage />
             </Route>
 
             <Route exact path='/contact'>
