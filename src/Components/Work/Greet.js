@@ -50,8 +50,8 @@ export const GreetingSection = () => {
                 <div className="project-half" id="project-half">
 
                     <h3 id="project-header">Recent Work</h3>
-                    <Row className="project-section" fluid>
-                        <Col id="project-card-container" >
+                    <Row className="project-section" >
+                        <Col id="project-card-container">
 
                             <Link to="/laugh-track" id="project-card">
                                 <Image id="project-pics" src={LTphoto} width="85%" height="auto" />
@@ -59,7 +59,7 @@ export const GreetingSection = () => {
                             </Link>
 
                         </Col>
-                        <Col id="project-card-container" >
+                        <Col id="project-card-container">
 
                             <Link to="/cohort-site" id="project-card">
                                 <Image id="project-pics" src={LTphoto} width="85%" height="auto" />
@@ -67,7 +67,7 @@ export const GreetingSection = () => {
                             </Link>
 
                         </Col>
-                        <Col id="project-card-container" >
+                        <Col id="project-card-container">
                             <Link to="/cohort-site" id="project-card">
 
                                 <Image id="project-pics" src={LTphoto} width="85%" height="auto" />

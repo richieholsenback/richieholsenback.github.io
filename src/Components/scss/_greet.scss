@@ -20,6 +20,9 @@
 html{
     background-color: $white;
     padding: 2em 2em 0.5em 2em;
+    @media only screen and (max-width: 730px) {
+        padding: 1em 1em 0.5em 1em;
+    }
 }
 
 .btn-primary {
@@ -189,8 +192,8 @@ p {
 #project-pics {
     min-width: 447px;
     min-height: 335px;
-    max-width: 741px;
-    max-height: 556px;
+    max-width: 447px;
+    max-height: 335px;
     @media only screen and (max-width: 480px) {
         min-width: 360px;
         min-height: 270px;
