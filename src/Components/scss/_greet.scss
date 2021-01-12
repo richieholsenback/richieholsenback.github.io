@@ -72,7 +72,7 @@ html{
 
 .greet-info{
     margin-left: 6em;
-    @media only screen and (max-width: 730px) {
+    @media only screen and (max-width: 770px) {
         margin-left: 0;
     } 
 }
@@ -144,3 +144,6 @@ p {
     border: $pink;
 }
 
+.spacer {
+    margin: 4.55em;
+}

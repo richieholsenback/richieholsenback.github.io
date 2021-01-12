@@ -57,7 +57,7 @@ export const GreetingSection = () => {
                         </div>
                     </div>
                 </div>
-               
+               <div className="spacer" />
             </div>
         </div >
     )
