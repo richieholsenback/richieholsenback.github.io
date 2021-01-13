@@ -1,54 +1,44 @@
 import React from "react";
 import { Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "../scss/_navBar.scss"
 
-const headerBrand = () => {
-    if ((window).width() < 1090){
-        return(
-            <>
-            <h1>RH</h1>
-            </>
-        )
-    } else {
-        return(
-            <>
-            <h1>Richie Holsenback</h1>
-            </> 
-        )
-    }
-}
 export const NavBar = props => {
     return (
         <>
             <Navbar expand="lg" bg="transparent" id="navbar-container">
-                <Navbar.Brand id="navHeader1" className="navtext navbar__link" href="/">Richie Holsenback</Navbar.Brand>
-                <Navbar.Brand id="navHeader2" className="navtext navbar__link" href="/">RH</Navbar.Brand>
+                <Link to="/"><Navbar.Brand id="navHeader1" >Richie Holsenback</Navbar.Brand></Link>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                     <Nav defaultActiveKey="/" as="ul" >
                         <div id="navbar">
-                        <div id="nav-choices">
-                            <Nav.Item className="navbar__item">
-                                <Nav.Link className="navbar__link" href="/work">
-                                    <h4 id="navtext">Work</h4>
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item className="navbar__item">
-                                <Nav.Link className="navbar__link" href="/resume">
-                                    <h4 id="navtext">Resumé</h4>
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item className="navbar__item">
-                                <Nav.Link className="navbar__link" href="/contact">
-                                    <h4 id="navtext">Contact</h4>
-                                </Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item className="navbar__item">
-                                <Nav.Link className="navbar__link" href="/fun">
-                                    <h4 id="navtext">Fun</h4>
-                                </Nav.Link>
-                            </Nav.Item>
-                        </div>
+                            <div id="nav-choices">
+                                <Nav.Item id="navHeader2" className="navbar__item">
+                                    <Link id="navHeader2" className="navbar__link" to="/">
+                                        <h4 id="navtext">Home</h4>
+                                    </Link>
+                                </Nav.Item>
+                                <Nav.Item className="navbar__item">
+                                    <Link className="navbar__link" to="/work">
+                                        <h4 id="navtext">Work</h4>
+                                    </Link>
+                                </Nav.Item>
+                                <Nav.Item className="navbar__item">
+                                    <Link className="navbar__link" to="/resume">
+                                        <h4 id="navtext">Resumé</h4>
+                                    </Link>
+                                </Nav.Item>
+                                <Nav.Item className="navbar__item">
+                                    <Link className="navbar__link" to="/contact">
+                                        <h4 id="navtext">Contact</h4>
+                                    </Link>
+                                </Nav.Item>
+                                <Nav.Item className="navbar__item">
+                                    <Link className="navbar__link" to="/fun">
+                                        <h4 id="navtext">Fun</h4>
+                                    </Link>
+                                </Nav.Item>
+                            </div>
                         </div>
                     </Nav>
                 </Navbar.Collapse>

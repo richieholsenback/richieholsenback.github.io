@@ -13,37 +13,30 @@ export const ApplicationViews = props => {
     return (
         <>
             <Route exact path='/'>
-                {/* <NavBar /> */}
                 <GreetingSection />
             </Route>
             
             <Route exact path='/work'>
-                {/* <NavBar /> */}
                 <ProjectPage />
             </Route>
 
             <Route exact path='/contact'>
-                {/* <NavBar /> */}
                 <ContactSection />
             </Route>
             
             <Route exact path='/resume'>
-                {/* <NavBar /> */}
                 <Resume />
             </Route>
             
             <Route exact path='/fun'>
-                {/* <NavBar /> */}
                 <Fun />
             </Route>
             
             <Route exact path='/laugh-track'>
-                {/* <NavBar /> */}
                 <LaughTrackPage />
             </Route>
             
             <Route exact path='/cohort-site'>
-                {/* <NavBar /> */}
                 <CohortPage />
             </Route>
         </>

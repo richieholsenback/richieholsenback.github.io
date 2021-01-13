@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 export const ProjectPage = () => {
     return (
-        <div className="greet-page">
+        <div className="work-page">
             <NavBar />
             <div id="projects-all">
                 <h3 id="project-header">Recent Work</h3>

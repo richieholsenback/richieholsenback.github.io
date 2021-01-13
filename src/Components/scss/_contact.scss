@@ -4,9 +4,8 @@
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    padding-left: 10em;
-    padding-right: 10em;
-    margin: 2em;
+    padding-left: 4em;
+    padding-right: 4em;
     @media only screen and (max-width: 1150px) {
         padding-left: 1.5em;
         padding-right: 1.5em;
@@ -55,7 +54,7 @@
 }
 
 .button-section {
-    margin-bottom: 2em;
+    // margin-bottom: 2em;
      @media only screen and (max-width: 1150px) {
         display: flex;
         flex-direction: column;
@@ -65,12 +64,18 @@
 
 #button-icon {
     fill: $white;
-    margin-left: 0.4em;
-    margin-right: 0.7em;
-    margin-bottom: 5px;
+    margin-right: 0.5em;
 }
 
-#button-content-container {
+#btn {
+    background-color: $pink !important;
+    font-family: "Atkinson-Hyperledgible-Bold";
+    font-size: 24px;
+    border: $pink;
+}
+
+.button-contents {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    align-items: baseline;
 }
