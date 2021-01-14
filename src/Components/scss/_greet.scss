@@ -19,9 +19,9 @@
 
 html{
     background-color: $white;
-    padding: 1em;
-    @media only screen and (max-width: 730px) {
-        padding: 1em 1em 0.5em 1em;
+    padding: 2em;
+    @media only screen and (max-width: 770px) {
+        padding: 1em;
     }
 }
 
@@ -37,7 +37,7 @@ html{
 .greet-page{
     background-color: $green;
     border-radius: 8px;
-    padding-bottom: 10em;
+    padding-bottom: 13em;
     @media only screen and (max-width: 770px) {
         // padding-bottom: 16.5em;
       }
@@ -59,11 +59,17 @@ html{
     @media only screen and (max-width: 1330px) {
         flex-direction: column;
     }
+    @media only screen and (max-width: 770px) {
+        padding-top: 2em;
+    }
 }
 
 #prof-pic {
+    
+    min-height: 333.33px;
     @media only screen and (max-width: 505px) {
-        display: none;
+        // display: none;
+        min-width: 250px;
     } 
 }
 

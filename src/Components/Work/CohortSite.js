@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import { NavBar } from "../NavBar/NavBar";
 import "../scss/_work.scss"
 import "../scss/_variables.scss"
-import LTphoto from '../../images/LTHome.png'
 import { Button, Image } from "react-bootstrap";
 import ScrollToTop from "./Greet";
 import C43photo from '../../images/c43Pre.png'

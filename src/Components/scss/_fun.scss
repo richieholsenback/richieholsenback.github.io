@@ -10,7 +10,11 @@ $test : 4;
     font-family: "Pridi";
     font-size: 72px;
     padding: 1em 0 0.5em 0;
-    @media only screen and (max-width: 730px) {
+    @media only screen and (max-width: 770px) {
+        font-size: 60px;
+        text-align: center;
+    }
+    @media only screen and (max-width: 500px) {
         font-size: 48px;
         text-align: center;
     }
@@ -101,6 +105,8 @@ $test : 4;
 #fun-div-header{
     font-size: 36px;
     margin: 1em 0;
+    text-align: center;
+    text-decoration: underline;
 }
 
 #thanks{

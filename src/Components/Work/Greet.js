@@ -1,12 +1,11 @@
-import { Button, Col, Row } from "react-bootstrap";
-import React, { useState, useEffect } from "react"
+import { Button } from "react-bootstrap";
+import React, { useEffect } from "react"
 import { Image } from "react-bootstrap";
 import photo from '../../images/me.png'
 import { NavBar } from "../NavBar/NavBar";
 import "../scss/_greet.scss"
 import "../scss/_variables.scss"
 import resume from "../../images/RichieHolsenbackResumeV3.pdf"
-import LTphoto from '../../images/isometric-web-pages-mockup.png'
 import { Link, useLocation } from "react-router-dom";
 
 export default function ScrollToTop() {
