@@ -9,15 +9,17 @@ import LTphoto from '../../images/Standup.png'
 import C43photo from '../../images/PC.png'
 import Journalphoto from '../../images/Diary.png'
 import { Link } from "react-router-dom";
+import ScrollToTop from "./Greet";
 
 export const ProjectPage = () => {
     return (
         <div className="work-page">
             <NavBar />
+            <ScrollToTop />
             <div id="projects-all">
                 <h3 id="project-header">Recent Work</h3>
                 <Container id="Container">
-                    <Row id="margin" noGutters>
+                    <Row noGutters>
                         <Col xl={6}>
                             <Link to="/laugh-track" >
                                 <Image src={LTphoto} width="100%" height="auto" />
@@ -58,7 +60,7 @@ export const ProjectPage = () => {
                     </Row>
                     <Row id="margin" noGutters>
                         <Col xl={6}>
-                            <Link to="/cohort-site" >
+                            <Link to="/journal" >
                                 <Image src={Journalphoto} width="100%" height="auto" />
                             </Link>
                         </Col>
@@ -66,7 +68,7 @@ export const ProjectPage = () => {
                             <h4 className="project-title">Coding Journal</h4>
                             <p className="project-text date">August 2020</p>
                             <p className="project-text">A tool to help remember what every day at the Nashville Software School had in store.</p>
-                            <Link to="/cohort-site"><Button size="sm" id="btn-sm">Case Study</Button></Link>
+                            <Link to="/journal"><Button size="sm" id="btn-sm">Case Study</Button></Link>
                         </Col>
                     </Row>
                 </Container>

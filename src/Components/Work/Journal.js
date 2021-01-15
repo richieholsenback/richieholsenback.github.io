@@ -7,7 +7,7 @@ import { Button, Image } from "react-bootstrap";
 import ScrollToTop from "./Greet";
 import C43photo from '../../images/c43Pre.png'
 
-export const CohortPage = () => {
+export const JournalCS = () => {
     
     return (
         <div className="greet-page" id="LT">
@@ -17,7 +17,7 @@ export const CohortPage = () => {
                 <Link to="/work" ><Button id="case-study-back" variant="primary">Back</Button></Link>
                 <div className="case-study-content">
                     <h2 className="case-study-header">My Coding Journal</h2>
-                    <Image id="case-study-pic" src={C43photo} width="80%" height="auto" />
+                    {/* <Image id="case-study-pic" src={C43photo} width="80%" height="auto" /> */}
                     <a id="github-link" href="https://github.com/richieholsenback/journal" target="_blank" rel="noreferrer">Github Repository</a>
                     <div className="case-study-descrip">
                         <p>The Nashville Software School is one of those places where a day feels like a month and a month feels like an hour. Keeping up with what you're learning can feel like an additional job on top of a 7 hour school day.</p>

@@ -1,5 +1,14 @@
 @import './variables';
 
+#btn-sm {
+    background-color: $pink !important;
+    font-family: "Atkinson-Hyperledgible-Regular";
+    font-size: 24px;
+    border: $pink;
+}
+
+//Project List
+
 .work-page{
     background-color: $teal;
     border-radius: 8px;
@@ -21,60 +30,6 @@
     margin: 1em 2em;
 }
 
-#btn-sm {
-    background-color: $pink !important;
-    font-family: "Atkinson-Hyperledgible-Regular";
-    font-size: 24px;
-    border: $pink;
-}
-
-.case-study-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2em 2em 1em 2em;
-    h2 {
-        font-family: "Pridi";
-        font-size: 72px;
-        padding: 0 0 0.5em 0;
-        color: $white;
-        text-align: center;
-        @media only screen and (max-width: 770px) {
-            font-size: 48px;
-    }
-        @media only screen and (max-width: 400px) {
-            font-size: 36px;
-    }
-    }
-    a {
-        color: $white;
-        text-decoration: underline;
-        margin: 1em;
-        font-size: 30px;
-        font-family: "Atkinson-Hyperledgible-Regular";
-        text-align: center;
-        &:hover {
-            color: $blue;
-        }
-        @media only screen and (max-width: 400px) {
-            font-size: 24px;
-    }
-    }
-}
-
-#case-study-pic {
-    max-width: 2000px;
-    height: auto;
-}
-
-.case-study-descrip {
-    padding: 0 2em 0 2em ;
-    @media only screen and (max-width: 520px) {
-        padding: 0;
-    }
-}
-
 #project-pics {
     min-width: 447px;
     min-height: 335px;
@@ -82,41 +37,10 @@
     max-height: 335px;
 }
 
-#case-study-back {
-    color: $white;
-    border: none;
-    font-size: 24px;
-    margin-top: 2em;
-    margin-left: 2em;
-    text-decoration: underline;
-    background-color: $green;
-    &:hover {
-        color: $blue;
-    }
-    @media only screen and (max-width: 520px) {
-        margin-left: 0;
-        margin-top: 1em;
-    }
-}
-
-#margin {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    border-radius: 8px;
-    @media only screen and (max-width: 520px) {
-        flex-direction: column;
-    }
-}
-
 .project-title {
     color: $white;
     font-family: "Pridi";
     font-size: 36px;
-}
-
-.project-text {
-    font-family: "Atkinson-Hyperledgible-Regular";
 }
 
 .date {
@@ -130,10 +54,6 @@
     @media only screen and (max-width: 730px) {
         font-size: 48px;
     }
-}
-
-#live-link {
-    margin-top: 0;
 }
 
 #large-screen {
@@ -164,9 +84,85 @@
     }
 }
 
-#Container {
-    padding-bottom: 2em;
+//Laugh Track
+
+
+#LT {
+    h2 {
+        font-family: "Pridi";
+        font-size: 72px;
+        color: $white;
+        text-align: center;
+        @media only screen and (max-width: 770px) {
+            font-size: 48px;
+    }
+        @media only screen and (max-width: 400px) {
+            font-size: 36px;
+    }
+    }
+    h4 {
+        font-family: "Pridi";
+        color: $white;
+        font-size: 36px;
+        text-align: center;
+        padding: 1em 0;
+        text-decoration: underline;
+    }
+    h5 {
+        font-family: "Pridi";
+        color: $white;
+        font-size: 48px;
+        text-align: center;
+        padding: 0.5em 0;
+    }
+    h6 {
+        font-family: "Atkinson-Hyperledgible-Bold";
+        color: $white;
+        font-size: 30px;
+        text-align: center;
+        padding: 0.5em 0;
+    }
+    a {
+        text-decoration: underline;
+        font-size: 30px;
+        font-family: "Atkinson-Hyperledgible-Regular";
+        @media only screen and (max-width: 400px) {
+            font-size: 24px;
+    }
+    }
+    p {
+        font-family: "Atkinson-Hyperledgible-Regular";
+    }
+    img{
+        margin: 0 1em;
+    } 
+    #gh-link {
+        text-align: center;
+    }
+    #user-prof{
+        padding: 1em;
+    }
 }
 
+//Cohort
 
+#live-link {
+    margin-top: 0;
+}
 
+#case-study-back {
+    color: $white;
+    border: none;
+    font-size: 24px;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-decoration: underline;
+    background-color: $green;
+    &:hover {
+        color: $blue;
+    }
+    @media only screen and (max-width: 520px) {
+        margin-left: 0;
+        margin-top: 1em;
+    }
+}

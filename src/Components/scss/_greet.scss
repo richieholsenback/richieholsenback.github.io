@@ -25,60 +25,20 @@ html{
     }
 }
 
-.btn-primary {
-    background-color: $pink;
-    color: white;
-  }
-
-#greet-blurb {
-    font-family: "Atkinson-Hyperledgible-Regular";
-}
-
 .greet-page{
     background-color: $green;
     border-radius: 8px;
-    padding-bottom: 13em;
     @media only screen and (max-width: 770px) {
         // padding-bottom: 16.5em;
       }
 }
 
-#greet-page-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.main-container{
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    padding-left: 10em;
-    padding-right: 10em;
-    padding-top: 5em;
-    @media only screen and (max-width: 1330px) {
-        flex-direction: column;
-    }
-    @media only screen and (max-width: 770px) {
-        padding-top: 2em;
-    }
-}
-
-#prof-pic {
-    
-    min-height: 333.33px;
-    @media only screen and (max-width: 505px) {
-        // display: none;
-        min-width: 250px;
-    } 
-}
-
-.greet-info{
-    margin-left: 6em;
-    @media only screen and (max-width: 770px) {
-        margin-left: 0;
-    } 
-}
+// .greet-info{
+//     margin-left: 6em;
+//     @media only screen and (max-width: 770px) {
+//         margin-left: 0;
+//     } 
+// }
 
 #greet-title{
     font-size: 96px;
@@ -96,22 +56,17 @@ html{
         font-size: 36px;
     }
 }
-
-#header-im {
-    @media only screen and (min-width: 806px) {
-        display: none;
-    } 
-}
-
-#icon-svg {
-    margin-right: 2em;
+#greet-quote{
+    font-size: 36px;
+    font-family: "Pridi";
+    color: $white;
+    padding: 2em 0;
     @media only screen and (max-width: 560px) {
-        margin-right: 1em;
+        font-size: 48px;
     }
-}
-
-#button{
-    margin-top: 2em;
+    @media only screen and (max-width: 315px) {
+        font-size: 36px;
+    }
 }
 
 a:hover {
@@ -132,20 +87,33 @@ h3 {
 }
 
 p {
-    font-family: "Atkinson-Hyperledgible-Bold";
+    font-family: "Atkinson-Hyperledgible-Regular";
     color: $white;
     font-size: 24px;
 }
 
-
-
-#btn-sm {
-    background-color: $pink !important;
-    font-family: "Atkinson-Hyperledgible-Regular";
-    font-size: 24px;
-    border: $pink;
+#btn {
+    margin: 1em 0;
 }
 
-.spacer {
-    // margin: 4.55em;
+#point{
+    width: 100% ; 
+    height: 100% ;
+}
+
+#main-section {
+    padding: 3em 0;
+}
+
+#sub-section {
+    padding: 3em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#greet-sub-titles {
+    font-size: 48px;
+    font-family: "Pridi";
+    color: $white;
 }

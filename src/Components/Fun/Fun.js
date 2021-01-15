@@ -3,7 +3,7 @@ import { NavBar } from "../NavBar/NavBar"
 import bird from '../../images/birbwhite.png'
 import duck1 from '../../images/Duck1.png'
 import breakskate from '../../images/breakskate.png'
-import skatebird from '../../images/skatebird.png'
+import record from '../../images/record.png'
 import "../scss/_fun.scss"
 import { Image } from "react-bootstrap"
 
@@ -22,7 +22,7 @@ export const Fun = () => {
             </p>
                 <div className="entertainment">
                     <div className="fun">
-                        <Image id="goose" src={skatebird} />
+                        <Image id="goose" src={record} />
                         <div className="music">
                             <h3 id="fun-div-header">My recent jams</h3>
                             <iframe id="spotify" src="https://open.spotify.com/embed/playlist/4CkD7Bai9HfE73rvks4ILH" width="400" height="720" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>

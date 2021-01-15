@@ -40,14 +40,10 @@
     font-size: 36px;
     color: $white;
     @media only screen and (max-width: 1100px) {
-        display: none;
+        font-size: 24px;
     }
 }
-#navHeader2{
-    @media only screen and (min-width: 1101px) {
-        display: none;
-    }
-}
+
 
 #nav-choices{
     display: flex;

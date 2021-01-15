@@ -4,7 +4,11 @@ import { NavBar } from "../NavBar/NavBar";
 import "../scss/_work.scss"
 import "../scss/_variables.scss"
 import LTphoto from '../../images/LTHome.png'
-import { Button, Image } from "react-bootstrap";
+import Kellen from '../../images/LTCS/KellenUP.png'
+import ERD from '../../images/LTCS/ERD.png'
+import LTWire from '../../images/LTCS/LTWire.png'
+import LTZoom from '../../images/LTCS/LTZoom.png'
+import { Button, Carousel, Col, Container, Image, Row } from "react-bootstrap";
 import ScrollToTop from "./Greet";
 
 export const LaughTrackPage = () => {
@@ -12,28 +16,88 @@ export const LaughTrackPage = () => {
         <div className="greet-page" id="LT">
             <NavBar />
             <ScrollToTop />
-            <div className="case-study-page">
-                <Link to="/work" ><Button id="case-study-back" variant="primary">Back</Button></Link>
-                <div className="case-study-content">
-                    <h2 className="case-study-header">Laugh Track</h2>
-                    <Image id="case-study-pic" src={LTphoto} width="80%" height="auto" />
-                    <a href="https://github.com/richieholsenback/laughtrack" target="_blank" rel="noreferrer">Github Repository</a>
-                    <div className="case-study-descrip">
-                        <p>I began performing standup in 2019 after loving the medium for most of my life. It is a rush to get on a stage and make people laugh and to have jokes to workshop and consistently improve upon. There is a great community in the standup scene and I made friends with a lot of  great and hilarious people.</p>
-                        <p>One thing I noticed about these people is they tend to be disorganized, always seeking advice on jokes and, often times, a little awkward. This is where the idea for Laugh Track came around. I wanted to create a tool that could help with networking, organization and most importantly improving your craft.</p>
-                            <br />
-                        <p>The project was my Front-End capstone with the Nashville Software School. It was a 2 week sprint in which I wireframed, created an ERD, mocked the site up, began production and hit MVP. We learned React 2 weeks before beginning the project so this was an exercise in becoming comfortable with that framework. This project was the first time I utilized a component library for styling and gained a lot of knowledge on how to shape and change them to suit your needs.</p>
-                        <p>The process of creating the site was my favorite part. After figuring out what comedians would value the most in a site, I went to work dreaming of the best components to suit those needs. </p>
-                        <p> What I came up with was that comedians need a place to organize and develop their material, they need a place to see upcoming events in their area and they need a place to network with other comedians and create a community.</p>
-                            <br />
-                        <p>I developed a site that has a messaging feature where users can talk casually and joke around, creating a rapport. Users can then follow one another and become friends. There is a journal component where users can showcase their previous performances and have their new friends give advice on how to improve all facets of their performance. The journal also has a section where users can write down their joke ideas to workshop them and improve their bits. Both facets of the journal have an option to keep their posts private as well. And what is a joke if you don't have a place to perform it? Users can see events happening in their area so they have an opportunity to perform their newly workshopped material. </p>
-                        <p>The events component was the last piece of the puzzle. I wanted comedians to see all of the events going on in their area. After all, if you don't perform the joke then does it matter that you ever wrote it? You can upload a poster along with all of the details of the event. </p>
-                            <br />
-                        <p>The site was a blast to make. The biggest takeaway I had was seeing my progression from day 1 to then. I could see how much I had learned in that time. 3 months before I was unsure of what HTML tags would be appropriate in which places. I assumed I would never understand Git or Github. Javascript functions seemed un-graspable. But I had proof that none of that was true. I did it. I made a real website! I learned React, I mastered a component library, I had an idea that turned into a real life application. I received a lesson in knowing I can. I hit MVP early and got to work on stretch goals. I learned that I could. </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+            <Link to="/work" ><Button id="case-study-back" variant="primary">Back</Button></Link>
+            <Container >
+                {/* <div className="case-study-content"> */}
+                <Row>
+                    <Col>
+                        <h2 className="case-study-header">Laugh Track</h2>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12}>
+                        <Image id="case-study-pic" src={LTphoto} width="100%" height="auto" />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col id="gh-link">
+                        <a href="https://github.com/richieholsenback/laughtrack" target="_blank" rel="noreferrer" >Github Repository</a>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        {/* <div className="case-study-descrip"> */}
+                        <h4>The Backstory</h4>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <p>I started my career (in the loosest sense) in standup in 2019. I love the process of creating, performing and improving a joke. There's nothing better than working really hard on a joke and having a big payoff. Similarly, there's nothing worse than working really hard on a joke and hearing nothing.</p>
+                        <p>One thing I noticed about other comedians in the circuit is that they tend to be disorganized, always seeking advice on jokes and, often times, a little awkward. I wanted to create a tool that could help my new friends.</p>
+                        <br />
+                        <h5>That's when I came up with Laugh Track</h5>
+                        <p>Laugh Track is a social media designed to help comedians succeed, no matter what their ultimate goal is. You can network, journal, get advice from your peers, and see all of the comedy events in your area so you know when and where you can perform your material.</p>
+                        <h4>2 Weeks from Hell</h4>
+                        <p>That was dramatic. It was actually really nice, I just wanted your attention. The site was part of a 2 week sprint with the Nashville Software School. In that 2 weeks I made user profiles, ERD's, wireframes, mockups, coded the site and hit MVP.</p>
+                        <p>Every good site needs a good plan, so I started there.</p>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col  lg={12}>
+                        <Image id="user-prof" src={LTWire} width="100%" height="auto" alt="The wireframe for laugh track"/>
+                        <p>Want a better view of the wireframe? <a href="https://www.figma.com/file/0DAt4BzQJH1jioAxM5gFWc/Laugh-Track?node-id=0%3A1&viewport=357%2C210%2C0.20582306385040283" target="_blank">Click here.</a></p>
+                        <p>I learned the importance of planning, here. My overall site design ended up looking pretty different to this. There might be a point where you can plan too much, but I haven't found it yet.</p>
+                    </Col>
+                    <Col lg={12}>
+                    <Image id="user-prof" src={ERD} width="80%" height="auto" alt="The ERD for laugh track"/>
+                        <p>Data. Data data data. This was crucial to get right and I didn't. This was my second stab at an ERD and I learned a ton from it. The concept seemed to click right after I made my last mistake pairing data up in my database. Perfect timing.</p>
+
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                    {/* <div id="lt-process">
+                            <Image src={ERD} width="30%" height="auto" />
+                            <h6>I made an ERD</h6>
+                            <div id="wireframe-group">
+                                <Image src={login} />
+                                <Image src={message} />
+                                <Image src={journal} />
+                                <Image src={event} />
+                                <Image src={following} />
+                            </div>
+                            <h6>I wireframed my site</h6>
+                            <Image width="50%" height="auto" src={colors} />
+                            <h6>I found my color pallette</h6>
+                            <Image width="50%" height="auto" src={Grav} />
+                            <h6>I figured out the perfect font</h6>
+                        </div> */}
+                    <h5>Meet Kellen. </h5>
+                    <Image id="user-prof" src={Kellen} width="100%" height="auto" alt="Kellen's user profile"/>
+
+                    <p>Kellen could use a little help. Like many comedians, Kellen has big dreams but few of the necessary skills you need to succeed as an adult, much less become famous. But Kellen is very funny and has a ton of potential.</p>
+                    <br />
+                    <h4>How can Laugh Track help Kellen as a comedian? </h4>
+                    <p>Thanks for asking. Check out <a href="https://www.loom.com/share/a92363cd10444721b327f51ce64dbc17" target="_blank">this presentation</a> for a guided tour of the site, from Kellen's perspective. </p>
+                    <br />
+                    <h4></h4>
+                    <p>This site was a blast to make. The biggest takeaway I had was seeing my progression from day 1 of the class to then. I could see how much I had learned in that time. 3 months before I was unsure of what HTML tags would be appropriate in which places. I assumed I would never understand Git or Github. Javascript functions seemed un-graspable. But I had proof that none of that was true. I did it. I made a real website! I learned React, I mastered a component library, I had an idea that turned into a real life application. I received a lesson in knowing I can. I hit MVP early and got to work on stretch goals. I learned that I could. </p>
+                    </Col>
+                </Row>
+            {/* </div> */}
+            {/* </div> */}
+            </Container>
+        </div >
 
     )
 }

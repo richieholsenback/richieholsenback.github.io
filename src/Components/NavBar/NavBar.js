@@ -13,11 +13,6 @@ export const NavBar = props => {
                     <Nav defaultActiveKey="/" as="ul" >
                         <div id="navbar">
                             <div id="nav-choices">
-                                <Nav.Item id="navHeader2" className="navbar__item">
-                                    <Link id="navHeader2" className="navbar__link" to="/">
-                                        <h4 id="navtext">Home</h4>
-                                    </Link>
-                                </Nav.Item>
                                 <Nav.Item className="navbar__item">
                                     <Link className="navbar__link" to="/work">
                                         <h4 id="navtext">Work</h4>
