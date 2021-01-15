@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c4fc79a1.chunk.css",
-    "main.js": "/static/js/main.68db8527.chunk.js",
-    "main.js.map": "/static/js/main.68db8527.chunk.js.map",
+    "main.js": "/static/js/main.06ce4cb6.chunk.js",
+    "main.js.map": "/static/js/main.06ce4cb6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.097305d8.js",
     "runtime-main.js.map": "/static/js/runtime-main.097305d8.js.map",
     "static/css/2.95f25948.chunk.css": "/static/css/2.95f25948.chunk.css",
@@ -28,6 +28,7 @@
     "static/media/birbwhite.f1ece878.png": "/static/media/birbwhite.f1ece878.png",
     "static/media/breakskate.91b4f3b0.png": "/static/media/breakskate.91b4f3b0.png",
     "static/media/c43Pre.fb861d45.png": "/static/media/c43Pre.fb861d45.png",
+    "static/media/cap.e2c4878c.png": "/static/media/cap.e2c4878c.png",
     "static/media/handshake.7624da6c.png": "/static/media/handshake.7624da6c.png",
     "static/media/me.1d2521f4.png": "/static/media/me.1d2521f4.png",
     "static/media/point.dc05cca0.png": "/static/media/point.dc05cca0.png",
@@ -40,6 +41,6 @@
     "static/css/2.95f25948.chunk.css",
     "static/js/2.58e1d119.chunk.js",
     "static/css/main.c4fc79a1.chunk.css",
-    "static/js/main.68db8527.chunk.js"
+    "static/js/main.06ce4cb6.chunk.js"
   ]
 }
