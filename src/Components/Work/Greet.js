@@ -10,6 +10,7 @@ import { Link, useLocation } from "react-router-dom";
 import point from '../../images/point.png'
 import thumbs from '../../images/thumbs.png'
 import skatebird from '../../images/skatebird.png'
+import pc from '../../images/PC.png'
 
 export default function ScrollToTop() {
     const { pathname } = useLocation();
@@ -91,7 +92,7 @@ export const GreetingSection = () => {
                         <p>I love being bad at things. Knowing that this moment is the worst you're going to be at an activity is such a refreshing idea. I want to continue to learn and grow every moment.</p>
                         </Col>
                         <Col lg={4}>
-                        <Image src={thumbs} id="point"/>
+                        <Image src={pc} id="point"/>
                         </Col>
                     </Row>
                     <Row id="sub-section">

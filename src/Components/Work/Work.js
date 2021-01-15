@@ -6,7 +6,7 @@ import { NavBar } from "../NavBar/NavBar";
 import "../scss/_greet.scss"
 import "../scss/_variables.scss"
 import LTphoto from '../../images/Standup.png'
-import C43photo from '../../images/PC.png'
+import C43photo from '../../images/cap.png'
 import Journalphoto from '../../images/Diary.png'
 import { Link } from "react-router-dom";
 import ScrollToTop from "./Greet";
