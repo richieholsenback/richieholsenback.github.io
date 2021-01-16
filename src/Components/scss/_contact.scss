@@ -6,10 +6,26 @@
     align-items: center;
     padding-left: 4em;
     padding-right: 4em;
+    padding-top: 4em;
     @media only screen and (max-width: 1150px) {
         padding-left: 1.5em;
         padding-right: 1.5em;
     }
+    p {
+        font-family: "Atkinson-Hyperledgible-Bold";
+        font-size: 72px;
+        color: $white;
+        @media only screen and (max-width: 770px) {
+            font-size: 48px;
+         }
+    }
+}
+
+.contact-page {
+    background-color: $yellow;
+    border-radius: 8px;
+    min-height: 100%; 
+    min-width: 100%; 
 }
 
 #shake{
@@ -28,60 +44,23 @@
      }
 }
 
-.contact-page {
-    background-color: $yellow;
-    border-radius: 8px;
-    min-height: 100%; 
-    min-width: 100%; 
-}
-
-.contact-text{
-    font-size: 72px;
-    margin-top: 1em;
-    color: $white;
-    @media only screen and (max-width: 730px) {
-       font-size: 28px;
-    }
-}
-
-.button-right{
-    margin-left: 2em;
-    @media only screen and (max-width: 1150px) {
-        margin-left: 0;
-        margin-bottom: 1em;
-     }
-}
-.button-left{
-    margin-right: 2em;
-    @media only screen and (max-width: 1150px) {
-        margin-right: 0;
-        margin-bottom: 1em;
-     }
-}
-
-#body{
-    background-color: $white;
-}
-
-.button-section {
-    // margin-bottom: 2em;
-     @media only screen and (max-width: 1150px) {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-     }
-}
-
 #button-icon {
     fill: $white;
     margin-right: 0.5em;
 }
 
 #btn {
-    background-color: $pink !important;
+    background-color: $blue !important;
     font-family: "Atkinson-Hyperledgible-Bold";
     font-size: 24px;
-    border: $pink;
+    border: none;
+}
+
+#btn-alt {
+    background-color: $white !important;
+    font-family: "Atkinson-Hyperledgible-Bold";
+    font-size: 24px;
+    color: $blue;
 }
 
 .button-contents {

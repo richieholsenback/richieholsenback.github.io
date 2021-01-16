@@ -3,10 +3,11 @@ import "../scss/_resume.scss"
 
 export const TechStack = () => {
     return (
-        <div className="Exp" >
-        <Row id="tech-stack-container">
+        <>
+        <Row className="Exp" >
             <h2 className="section-header text-w">Tech Stack</h2>
-            <div className="tech-stack-section indent">
+            </Row>
+            <Row>
                 <Col s={4} className="tech-stack-division">
                     <h4 className="stack-title text-w">UX</h4>
                     <ul className="tech-descrip">
@@ -44,8 +45,7 @@ export const TechStack = () => {
                         <li className="tech-descrip-list text-w">After Effects</li>
                     </ul>
                 </Col>
-            </div>
-        </Row>
-        </div>
+            </Row>
+            </>
         )
 }

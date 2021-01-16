@@ -29,7 +29,7 @@ export const ProjectPage = () => {
                             <h4 className="project-title">Laugh Track</h4>
                             <p className="project-text date">November 2020</p>
                             <p className="project-text">Designed to help comedians improve, organize and succeed.</p>
-                            <Link to="/laugh-track"><Button size="sm" id="btn-sm">Case Study</Button></Link>
+                            <Link to="/laugh-track"><Button size="sm" id="btn">Case Study</Button></Link>
                         </Col>
                     </Row>
                     <Row id="large-screen" noGutters>
@@ -37,7 +37,7 @@ export const ProjectPage = () => {
                             <h4 className="project-title">Cohort 43 Class Site</h4>
                             <p className="project-text date">December 2020</p>
                             <p className="project-text">Showcasing the talented individuals at the Nashville Software School in Cohort 43</p>
-                            <Link to="/cohort-site"><Button size="sm" id="btn-sm">Case Study</Button></Link>
+                            <Link to="/cohort-site"><Button size="sm" id="btn">Case Study</Button></Link>
                         </Col>
                         <Col xl={6}>
                             <Link to="/cohort-site" >
@@ -55,7 +55,7 @@ export const ProjectPage = () => {
                             <h4 className="project-title">Cohort 43 Class Site</h4>
                             <p className="project-text date">December 2020</p>
                             <p className="project-text">Showcasing the talented individuals at the Nashville Software School in Cohort 43</p>
-                            <Link to="/cohort-site"><Button size="sm" id="btn-sm">Case Study</Button></Link>
+                            <Link to="/cohort-site"><Button size="sm" id="btn">Case Study</Button></Link>
                         </Col>
                     </Row>
                     <Row id="margin" noGutters>
@@ -68,7 +68,7 @@ export const ProjectPage = () => {
                             <h4 className="project-title">Coding Journal</h4>
                             <p className="project-text date">August 2020</p>
                             <p className="project-text">A tool to help remember what every day at the Nashville Software School had in store.</p>
-                            <Link to="/journal"><Button size="sm" id="btn-sm">Case Study</Button></Link>
+                            <Link to="/journal"><Button size="sm" id="btn">Case Study</Button></Link>
                         </Col>
                     </Row>
                 </Container>
