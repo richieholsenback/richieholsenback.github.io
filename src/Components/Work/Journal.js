@@ -5,7 +5,6 @@ import "../scss/_work.scss"
 import "../scss/_variables.scss"
 import { Button, Image } from "react-bootstrap";
 import ScrollToTop from "./Greet";
-import C43photo from '../../images/c43Pre.png'
 
 export const JournalCS = () => {
     

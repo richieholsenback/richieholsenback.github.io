@@ -88,7 +88,7 @@
 //Laugh Track
 
 
-#LT {
+#CS {
     h2 {
         font-family: "Pridi";
         font-size: 72px;
@@ -101,7 +101,14 @@
             font-size: 36px;
     }
     }
-    h4 {
+    h3 {
+        font-family: "Pridi";
+        color: $white;
+        font-size: 30px;
+        text-align: center;
+        padding: 1em 0;
+    }
+    #h4 {
         font-family: "Pridi";
         color: $white;
         font-size: 36px;
@@ -123,7 +130,7 @@
         text-align: center;
         padding: 0.5em 0;
     }
-    a {
+    #link {
         text-decoration: underline;
         font-size: 30px;
         font-family: "Atkinson-Hyperledgible-Regular";
@@ -133,6 +140,11 @@
     }
     p {
         font-family: "Atkinson-Hyperledgible-Regular";
+    }
+    .learn-list {
+        font-family: "Atkinson-Hyperledgible-Regular";
+        color: $white;
+        font-size: 24px;
     }
     img{
         margin: 0 1em;

@@ -13,7 +13,7 @@ import ScrollToTop from "./Greet";
 
 export const LaughTrackPage = () => {
     return (
-        <div className="greet-page" id="LT">
+        <div className="greet-page" id="CS">
             <NavBar />
             <ScrollToTop />
             <Link to="/work" ><Button id="case-study-back" variant="primary">Back</Button></Link>
@@ -37,7 +37,7 @@ export const LaughTrackPage = () => {
                 <Row>
                     <Col>
                         {/* <div className="case-study-descrip"> */}
-                        <h4>The Backstory</h4>
+                        <h5>The Backstory</h5>
                     </Col>
                 </Row>
                 <Row>
@@ -47,7 +47,7 @@ export const LaughTrackPage = () => {
                         <br />
                         <h5>That's when I came up with Laugh Track</h5>
                         <p>Laugh Track is a social media designed to help comedians succeed, no matter what their ultimate goal is. You can network, journal, get advice from your peers, and see all of the comedy events in your area so you know when and where you can perform your material.</p>
-                        <h4>2 Weeks from Hell</h4>
+                        <h4 id="h4">2 Weeks from Hell</h4>
                         <p>That was dramatic. It was actually really nice, I just wanted your attention. The site was part of a 2 week sprint with the Nashville Software School. In that 2 weeks I made user profiles, ERD's, wireframes, mockups, coded the site and hit MVP.</p>
                         <p>Every good site needs a good plan, so I started there.</p>
                     </Col>
@@ -87,10 +87,9 @@ export const LaughTrackPage = () => {
 
                     <p>Kellen could use a little help. Like many comedians, Kellen has big dreams but few of the necessary skills you need to succeed as an adult, much less become famous. But Kellen is very funny and has a ton of potential.</p>
                     <br />
-                    <h4>How can Laugh Track help Kellen as a comedian? </h4>
+                    <h4 id="h4">How can Laugh Track help Kellen as a comedian? </h4>
                     <p>Thanks for asking. Check out <a href="https://www.loom.com/share/a92363cd10444721b327f51ce64dbc17" target="_blank">this presentation</a> for a guided tour of the site, from Kellen's perspective. </p>
-                    <br />
-                    <h4></h4>
+                    <h5>Lessons Learned</h5>
                     <p>This site was a blast to make. The biggest takeaway I had was seeing my progression from day 1 of the class to then. I could see how much I had learned in that time. 3 months before I was unsure of what HTML tags would be appropriate in which places. I assumed I would never understand Git or Github. Javascript functions seemed un-graspable. But I had proof that none of that was true. I did it. I made a real website! I learned React, I mastered a component library, I had an idea that turned into a real life application. I received a lesson in knowing I can. I hit MVP early and got to work on stretch goals. I learned that I could. </p>
                     </Col>
                 </Row>
