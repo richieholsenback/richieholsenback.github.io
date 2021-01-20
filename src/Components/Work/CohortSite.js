@@ -46,7 +46,8 @@ export const CohortPage = () => {
                 <Row>
                     <Col>
                         <p>I, like many others, had a job. Then, because of the COVID-19 pandemic of 2020, I did not have a job, like many others. Rather than sit around and wait for the pandemic to end and for my job to start back again, I decided to join the Nashville Software School for Front-End Development and UI/UX Design.</p>
-                        <p>My classmates in the UI/UX track, a team of 8, were tasked with building a site that would display the many talented individuals in our class. We split further into 2 teams to create 2 wireframes, mockups and presentations. We were to discuss and vote on which design we should continue ahead with.</p>
+                        <p>My classmates in the UI/UX track, a team of 8, were tasked with building a site that would display the many talented individuals in our class. We faced the challenge of displaying 28 people in a meaningful, interesting way, showcasing the different information the two sides of the cohort learned, and showing who learned what.</p>
+                        <p>We split further into 2 teams to create 2 wireframes, mockups and presentations. We were to discuss and vote on which design we should continue ahead with.</p>
                         <h4 id="h4">Our problem Statement</h4>
                         <h3>How might we promote Demo Day and showcase Cohort 43’s dual skill sets to potential employers with the ultimate goal of employment?</h3>
                     </Col>
