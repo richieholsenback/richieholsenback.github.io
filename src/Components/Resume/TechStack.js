@@ -9,7 +9,7 @@ export const TechStack = () => {
             </Row>
             <Row>
                 <Col s={4} className="tech-stack-division">
-                    <h4 className="stack-title text-w">UX</h4>
+                    <h4 id="h4" className="stack-title text-w">UX</h4>
                     <ul className="tech-descrip">
                         <li className="tech-descrip-list text-w">Information Architecture</li>
                         <li className="tech-descrip-list text-w">Persona Development</li>
@@ -18,7 +18,7 @@ export const TechStack = () => {
                     </ul>
                 </Col>
                 <Col s={4} className="tech-stack-division">
-                    <h4 className="stack-title text-w">Development</h4>
+                    <h4 id="h4" className="stack-title text-w">Development</h4>
                     <ul className="tech-descrip">
                         <li className="tech-descrip-list text-w">HTML</li>
                         <li className="tech-descrip-list text-w">CSS</li>
@@ -27,7 +27,7 @@ export const TechStack = () => {
                     </ul>
                 </Col>
                 <Col s={4} className="tech-stack-division">
-                    <h4 className="stack-title text-w">Design</h4>
+                    <h4 id="h4" className="stack-title text-w">Design</h4>
                     <ul className="tech-descrip">
                         <li className="tech-descrip-list text-w">Web</li>
                         <li className="tech-descrip-list text-w">Responsive</li>
@@ -36,7 +36,7 @@ export const TechStack = () => {
                     </ul>
                 </Col>
                 <Col s={4} className="tech-stack-division">
-                    <h4 className="stack-title text-w">Creative</h4>
+                    <h4 id="h4" className="stack-title text-w">Creative</h4>
                     <ul className="tech-descrip">
                         <li className="tech-descrip-list text-w">Photoshop</li>
                         <li className="tech-descrip-list text-w">Illustrator</li>
