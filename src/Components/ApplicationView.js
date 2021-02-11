@@ -9,6 +9,7 @@ import { LaughTrackPage } from "./Work/LaughTrack";
 import { CohortPage } from "./Work/CohortSite";
 import { ProjectPage } from "./Work/Work";
 import { JournalCS } from "./Work/Journal";
+import { Ourflix } from "./Work/Ourflix";
 
 export const ApplicationViews = props => {
     return (
@@ -41,8 +42,8 @@ export const ApplicationViews = props => {
                 <CohortPage />
             </Route>
             
-            <Route exact path='/journal'>
-                <JournalCS />
+            <Route exact path='/ourflix'>
+                <Ourflix />
             </Route>
         </>
     )
