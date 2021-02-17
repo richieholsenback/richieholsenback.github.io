@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.127417ce.chunk.css",
-    "main.js": "/static/js/main.c14f017c.chunk.js",
-    "main.js.map": "/static/js/main.c14f017c.chunk.js.map",
+    "main.js": "/static/js/main.2a57ea60.chunk.js",
+    "main.js.map": "/static/js/main.2a57ea60.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.097305d8.js",
     "runtime-main.js.map": "/static/js/runtime-main.097305d8.js.map",
     "static/css/2.95f25948.chunk.css": "/static/css/2.95f25948.chunk.css",
@@ -27,7 +27,7 @@
     "static/media/OF Wireframe.9e5120bf.png": "/static/media/OF Wireframe.9e5120bf.png",
     "static/media/OFHome.44b8320d.png": "/static/media/OFHome.44b8320d.png",
     "static/media/PC.8055ceb6.png": "/static/media/PC.8055ceb6.png",
-    "static/media/RichieHolsenbackResumeV3.c57a14cc.pdf": "/static/media/RichieHolsenbackResumeV3.c57a14cc.pdf",
+    "static/media/RichieHolsenbackResumeV3.dc1f9dc5.pdf": "/static/media/RichieHolsenbackResumeV3.dc1f9dc5.pdf",
     "static/media/Screen Shot 2021-01-14 at 11.45.44 AM.d781b7d9.png": "/static/media/Screen Shot 2021-01-14 at 11.45.44 AM.d781b7d9.png",
     "static/media/Standup.2f1afbf6.png": "/static/media/Standup.2f1afbf6.png",
     "static/media/birbwhite.f1ece878.png": "/static/media/birbwhite.f1ece878.png",
@@ -53,6 +53,6 @@
     "static/css/2.95f25948.chunk.css",
     "static/js/2.2f3876e3.chunk.js",
     "static/css/main.127417ce.chunk.css",
-    "static/js/main.c14f017c.chunk.js"
+    "static/js/main.2a57ea60.chunk.js"
   ]
 }
