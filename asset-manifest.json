@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.127417ce.chunk.css",
-    "main.js": "/static/js/main.2a57ea60.chunk.js",
-    "main.js.map": "/static/js/main.2a57ea60.chunk.js.map",
+    "main.js": "/static/js/main.424564cc.chunk.js",
+    "main.js.map": "/static/js/main.424564cc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.097305d8.js",
     "runtime-main.js.map": "/static/js/runtime-main.097305d8.js.map",
     "static/css/2.95f25948.chunk.css": "/static/css/2.95f25948.chunk.css",
@@ -40,7 +40,8 @@
     "static/media/co431.4e4e3256.png": "/static/media/co431.4e4e3256.png",
     "static/media/handshake.7624da6c.png": "/static/media/handshake.7624da6c.png",
     "static/media/me.1d2521f4.png": "/static/media/me.1d2521f4.png",
-    "static/media/oferd.7d2d3a1d.png": "/static/media/oferd.7d2d3a1d.png",
+    "static/media/ofcode.35fc9076.png": "/static/media/ofcode.35fc9076.png",
+    "static/media/oferd.c3e61e55.png": "/static/media/oferd.c3e61e55.png",
     "static/media/point.dc05cca0.png": "/static/media/point.dc05cca0.png",
     "static/media/record.24b294ec.png": "/static/media/record.24b294ec.png",
     "static/media/skatebird.1057ff59.png": "/static/media/skatebird.1057ff59.png",
@@ -53,6 +54,6 @@
     "static/css/2.95f25948.chunk.css",
     "static/js/2.2f3876e3.chunk.js",
     "static/css/main.127417ce.chunk.css",
-    "static/js/main.2a57ea60.chunk.js"
+    "static/js/main.424564cc.chunk.js"
   ]
 }
