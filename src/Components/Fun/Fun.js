@@ -43,7 +43,7 @@ export const Fun = () => {
                         <Image id="hold" src={breakskate} />
                     </Col>
                 </Row>
-                <Row >
+                <Row className="justify-content-md-center">
                     <Col>
                         <h3 id="fun-div-header">A playlist of my standup</h3>
                         <iframe id="youtube" src="https://www.youtube.com/embed/videoseries?list=PLM2osoqpH8dJF73pR-y5MEYP_KVZMSpd-" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>

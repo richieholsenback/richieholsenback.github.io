@@ -64,7 +64,7 @@ export const Ourflix = () => {
                     </Col>
                     <Image id="user-prof" src={CaroUP} width="80%" height="auto" alt="The ERD for ourflix"/>
                     <Col lg={12}>
-                        <p>My first user persona was more of an observation than pondering a fictitious user. Carolyn is my girl friend, and I've seen her and her roommates try to decide on what movie to watch. It's a process. Knowing that she would be part of the target demographic of the app made her the perfect potential user.</p>
+                        <p>My first user persona was more of an observation than pondering a fictitious user. Carolyn is my girlfriend, and I've seen her and her roommates try to decide on what movie to watch. It's a process. Knowing that she would be part of the target demographic of the app made her the perfect potential user.</p>
                         <p>I knew I could come up with general design layout I liked, I've done that before. For this app I wanted to stick to someone else's rules. So who better to follow when making a Netflix based app than Netflix? I found plenty of materials outlining color schemes, fonts, how a button should look and more on the internet. A Netflix themed Netflix app was born.</p>
                     </Col>
                 </Row>
@@ -82,7 +82,7 @@ export const Ourflix = () => {
                     <p>Check out the live site <a>here.</a></p>
                     <p>At the time of writing this, I have hit MVP. I still want to find a way to implement a filter function, get buttons working for a swipe and implement groups and a few other features, but as of now I am quite proud of my skateboard. This site was a great show of how I've been able to change my way of thinking into that of a real developer. I'm learning new things, connecting dots and testing the way that will help me to succeed in my career as a UI/UX Developer. I want this site to be a practice in agile development, with steady improvements until it is a fully-fledged app.</p>
                     <h5>Lessons Learned</h5>
-                    <p>What a bittersweet app. I had a lot of fun and just as many frustrations. It was my last project at the Nashville Software School. It was the thing in between me and the real world. I loved making this app because it had shown a full 6 months of progression. I was worlds better at coding than I was 6 months ago, and the most exciting bit was knowing that in 6 months I'd be even better! I saw how much I learned, how much I knew and how much I could work through. Ourflix will always be one of my favorite projects. </p>
+                    <p>What a bittersweet app. I had a lot many frustrations but even more mountain-top moments. It was my last project at the Nashville Software School. It was the thing in between me and the real world. I loved making this app because it had shown a full 6 months of progression. I was worlds better at coding than I was 6 months ago, and the most exciting bit was knowing that in 6 months I'd be even better! I saw how much I learned, how much I knew and how much I could work through. Ourflix will always be one of my favorite projects. </p>
                     </Col>
                 </Row>
             {/* </div> */}
