@@ -185,3 +185,9 @@ li {
     color: $white;
     font-size: 24px;
 }
+
+#margin {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}

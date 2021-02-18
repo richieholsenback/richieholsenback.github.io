@@ -46,9 +46,9 @@ export const CohortPage = () => {
                     <Col>
                         <p>I, like many others, had a job. Then, because of the COVID-19 pandemic of 2020, I did not have a job, like many others. Rather than sit around and wait for the pandemic to end and for my job to start back again, I decided to join the Nashville Software School for Front-End Development and UI/UX Design.</p>
                         <p>My classmates in the UI/UX track, a team of 8, were tasked with building a site that would display the many talented individuals in our class. We faced the challenge of displaying 28 people in a meaningful, interesting way, showcasing the different information the two sides of the cohort learned, and showing who learned what.</p>
-                        <p>We split further into 2 teams to create 2 wireframes, mockups and presentations. We were to discuss and vote on which design we should continue ahead with.</p>
-                        <h4 id="h4">Our problem Statement</h4>
+                        <h4 id="h4">The Problem</h4>
                         <h3>How might we promote Demo Day and showcase Cohort 43’s dual skill sets to potential employers with the ultimate goal of employment?</h3>
+                        <p>We split further into 2 teams to create 2 wireframes, mockups and presentations. We were to discuss and vote on which design we should continue ahead with.</p>
                     </Col>
                 </Row>
                 <Row>
@@ -65,9 +65,8 @@ export const CohortPage = () => {
                     <Col>
                         <br />
                         <h4 id="h4">We hit, what could only be referred to as, an impasse</h4>
-                        <p>We did not think that both groups would just think their own design was the best. There was a tie that could not be broken since both teams had 4 people on them.</p>
+                        <p>There was not a clear winner. We went to a vote, but both teams of 4 voted for their own design. We went to an impartial judge and they suggested we pick parts from each design we liked.</p>
                         <h5>We decided to compromise</h5>
-                        <p>After discussion, we realized both teams brought good ideas to the table. We decided to merge the 2 into a hybrid design.</p>
                         <p>Team one used Pantone's color of the year for 2021, Illuminating, with a teal that paired well with it. The bright gold color felt fresh and exciting - a new beginning. We wanted to convey that as new hires, we can provide a fresh and aspirational face to any company that might consider hiring us.</p>
                         <p>Team two had a clear, card based layout that displayed the students in a clear and effective manner. We liked the way this layout showed the technologies our cohort learned over our time at NSS.</p>
                         <h3>We came together and created a new mockup.</h3>
@@ -78,7 +77,7 @@ export const CohortPage = () => {
                 <Row>
                     <Col>
                         <h5>User Testing</h5>
-                        <p>We began user testing with 3 development professionals. We took their feedback and improved our site. We did 2 more rounds of user testing and decided on our final design.</p>
+                        <p>We began user testing with 3 development professionals. We took their feedback and improved our site. The honeycomb design was meant to be metaphor to describe the dual nature of the class. While it was clever, we realized it was just noise on the page. The tabs were a favorite feature, but after testing they seemed to be confusing to users. We scrapped both and simplified our design. We did 2 more rounds of user testing and decided on our final design.</p>
                         <h3>The Final Mockup</h3>
                         <Image src={finalMockup} width="100%" height="auto" alt="The wireframe for laugh track" />
                         <p>Check out a live version of our class site <a href="https://nss-day-cohort-43.github.io/" target="_blank" rel="noreferrer">here.</a></p>
@@ -86,7 +85,7 @@ export const CohortPage = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <h5>We learned so much </h5>
+                        <h5>I learned so much </h5>
                         {/* <Image id="user-prof" src={Kellen} width="100%" height="auto" alt="Kellen's user profile"/> */}
 
                         <ul>

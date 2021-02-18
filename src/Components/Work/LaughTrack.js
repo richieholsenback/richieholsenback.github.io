@@ -48,7 +48,7 @@ export const LaughTrackPage = () => {
                         <h5>That's when I came up with Laugh Track</h5>
                         <p>Laugh Track is a social media designed to help comedians succeed, no matter what their ultimate goal is. You can network, journal, get advice from your peers, and see all of the comedy events in your area so you know when and where you can perform your material.</p>
                         <h4 id="h4">2 Weeks from Hell</h4>
-                        <p>That was dramatic. It was actually really nice, I just wanted your attention. The site was part of a 2 week sprint with the Nashville Software School. In that 2 weeks I made user profiles, ERD's, wireframes, mockups, coded the site and hit MVP.</p>
+                        <p>That was dramatic. It was actually really nice, I just wanted your attention. The site was part of a 2 week sprint with the Nashville Software School. In that 2 weeks I made user profiles, ERD's, wireframes, coded the site and hit MVP.</p>
                         <p>Every good site needs a good plan, so I started there.</p>
                     </Col>
                 </Row>
@@ -56,7 +56,7 @@ export const LaughTrackPage = () => {
                     <Col lg={12}>
                         <Image id="user-prof" src={LTWire} width="100%" height="auto" alt="The wireframe for laugh track" />
                         <p>Want a better view of the wireframe? <a href="https://www.figma.com/file/0DAt4BzQJH1jioAxM5gFWc/Laugh-Track?node-id=0%3A1&viewport=357%2C210%2C0.20582306385040283" target="_blank">Click here.</a></p>
-                        <p>I learned the importance of planning, here. My overall site design ended up looking pretty different to this. There might be a point where you can plan too much, but I haven't found it yet.</p>
+                        <p>I learned the importance of planning, here. My overall site design ended up looking pretty different to this. this was a lesson where I learned utilizing a mock up is very important. Trying to design while in a development mindset can, and did, lead to lots of careless mistakes.</p>
                     </Col>
                     <Col lg={12}>
                         <Image id="user-prof" src={ERD} width="80%" height="auto" alt="The ERD for laugh track" />
