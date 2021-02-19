@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a9089fef.chunk.css",
-    "main.js": "/static/js/main.4320a711.chunk.js",
-    "main.js.map": "/static/js/main.4320a711.chunk.js.map",
+    "main.js": "/static/js/main.20212d9e.chunk.js",
+    "main.js.map": "/static/js/main.20212d9e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.097305d8.js",
     "runtime-main.js.map": "/static/js/runtime-main.097305d8.js.map",
     "static/css/2.95f25948.chunk.css": "/static/css/2.95f25948.chunk.css",
@@ -16,13 +16,14 @@
     "static/js/2.2f3876e3.chunk.js.LICENSE.txt": "/static/js/2.2f3876e3.chunk.js.LICENSE.txt",
     "static/media/_fun.scss": "/static/media/Atkinson-Hyperlegible-Regular-102.0f701896.ttf",
     "static/media/CaroUP.e3e254c0.png": "/static/media/CaroUP.e3e254c0.png",
+    "static/media/CodeProud.5cc05fdb.png": "/static/media/CodeProud.5cc05fdb.png",
     "static/media/Diary.ee4decfc.png": "/static/media/Diary.ee4decfc.png",
     "static/media/Duck1.1da2fbdc.png": "/static/media/Duck1.1da2fbdc.png",
     "static/media/ERD.71df8835.png": "/static/media/ERD.71df8835.png",
     "static/media/KellenUP.4b5eac19.png": "/static/media/KellenUP.4b5eac19.png",
+    "static/media/LTCode.f773690d.png": "/static/media/LTCode.f773690d.png",
     "static/media/LTHome.ef766df9.png": "/static/media/LTHome.ef766df9.png",
     "static/media/LTWire.c9412bc3.png": "/static/media/LTWire.c9412bc3.png",
-    "static/media/LTZoom.979615d6.png": "/static/media/LTZoom.979615d6.png",
     "static/media/MarkUP.213134d0.png": "/static/media/MarkUP.213134d0.png",
     "static/media/MobileMock.2fa422b5.png": "/static/media/MobileMock.2fa422b5.png",
     "static/media/Mockup.4ac3ad3b.png": "/static/media/Mockup.4ac3ad3b.png",
@@ -55,6 +56,6 @@
     "static/css/2.95f25948.chunk.css",
     "static/js/2.2f3876e3.chunk.js",
     "static/css/main.a9089fef.chunk.css",
-    "static/js/main.4320a711.chunk.js"
+    "static/js/main.20212d9e.chunk.js"
   ]
 }
