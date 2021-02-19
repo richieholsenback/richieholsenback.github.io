@@ -7,7 +7,8 @@ import LTphoto from '../../images/LTHome.png'
 import Kellen from '../../images/LTCS/KellenUP.png'
 import ERD from '../../images/LTCS/ERD.png'
 import LTWire from '../../images/LTCS/LTWire.png'
-import LTZoom from '../../images/LTCS/LTZoom.png'
+import code from '../../images/LTCS/LTCode.png'
+import codeProud from '../../images/LTCS/CodeProud.png'
 import { Button, Carousel, Col, Container, Image, Row } from "react-bootstrap";
 import ScrollToTop from "./Greet";
 
@@ -42,59 +43,60 @@ export const LaughTrackPage = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p>I started my career (in the loosest sense) in standup in 2019. I love the process of creating, performing and improving a joke. There's nothing better than working really hard on a joke and having a big payoff. Similarly, there's nothing worse than working really hard on a joke and hearing nothing.</p>
-                        <p>One thing I noticed about other comedians in the circuit is that they tend to be disorganized, always seeking advice on jokes and, often times, a little awkward. I wanted to create a tool that could help my new friends.</p>
+                        <p>It's the same feeling you get right before you jump out of an airplane, nervous anticipation. There cannot be a worse feeling than getting on stage in front of a bunch of strangers, trying to make them laugh and then hearing silence. Alternatively, the rush you get whenever you get roaring laughter is invigorating. I began my incredibly amateur career in standup comedy in 2019. I was hooked immediately.</p>
                         <br />
-                        <h5>That's when I came up with Laugh Track</h5>
-                        <p>Laugh Track is a social media designed to help comedians succeed, no matter what their ultimate goal is. You can network, journal, get advice from your peers, and see all of the comedy events in your area so you know when and where you can perform your material.</p>
-                        <h4 id="h4">2 Weeks from Hell</h4>
-                        <p>That was dramatic. It was actually really nice, I just wanted your attention. The site was part of a 2 week sprint with the Nashville Software School. In that 2 weeks I made user profiles, ERD's, wireframes, coded the site and hit MVP.</p>
-                        <p>Every good site needs a good plan, so I started there.</p>
+                        <p>If you've ever tried speaking to someone who does standup comedy, you'll quickly realize they're a special breed. They tend to be a little socially awkward, very disorganized and have no idea when or where anything is happening. I wanted to create an application that could help these individuals become better.</p>
+                        <h3 >The Problem</h3>
+                        <p>How can I help comedians improve their craft, create connections and ultimately succeed?</p>
+                        <h3 >The Solution</h3>
+                        <p>I decided to create a journal of sorts. The main journal component would have two parts. The first would be a place for comedians to workshop material they hadn't fully fleshed out yet with help from other users. the second would be a place where they could post videos of their previous performances, make notes and receive feedback from other users. There would be a messaging feature, an events page and a place to become friends with other users.</p>
+                        <h3 >Challenges</h3>
+                        <p>3 months before starting this project, I was anxious that when I was writing HTML I would use a Div where I should've used a Section. Now I'm going to be coding a proper website by myself in ReactJS, which I had started to learn 3 weeks prior. I was excited and nervous, but felt up to the task.</p>
+                        <br />
+                        <p>I had previous practice with creating forms and displaying information from them, but the way I envisioned the messaging feature working would be different. I wanted it to be similar to a Facebook feed, with one input at the top and the messages cascading down. I was unsure of how the code would work for this part.</p>
+                        <br />
+                        <p>The friend feature seemed to be the most daunting. I did not understand what it meant that I'd be creating an object that represented a friendship. I also had no idea how to get two keys in the object to represent a friendship. It was all very confusing to me.</p>
+                        <br />
+                        <h3 >The Design Process</h3>
                     </Col>
                 </Row>
                 <Row className="justify-content-md-center">
                     <Col lg={12}>
                         <Image id="user-prof" src={LTWire} width="100%" height="auto" alt="The wireframe for laugh track" />
                         <p>Want a better view of the wireframe? <a href="https://www.figma.com/file/0DAt4BzQJH1jioAxM5gFWc/Laugh-Track?node-id=0%3A1&viewport=357%2C210%2C0.20582306385040283" target="_blank">Click here.</a></p>
-                        <p>I learned the importance of planning, here. My overall site design ended up looking pretty different to this. this was a lesson where I learned utilizing a mock up is very important. Trying to design while in a development mindset can, and did, lead to lots of careless mistakes.</p>
+                        <br />
+                        <p>The design process was not my best showing. I learned the importance of planning, here. My overall site design ended up looking pretty different to what I planned, since all I had planned was a wireframe. This was a lesson where I learned utilizing a mock up is very important. Trying to design while in a development mindset can, and did, lead to lots of careless mistakes.</p>
+                        <br />
+                        <p>I wanted to use a style library for this project because I knew it would be important in my future to learn how to use one properly. I landed on the <a href="https://react.semantic-ui.com/" target="_blank" rel="noreferrer">Semantic UI React library</a>. I really chose it based off the buttons and input styles and there wasn't too much thought besides that.</p>
+                        <Image id="user-prof" src={Kellen} width="100%" height="auto" alt="Kellen's user profile" />
+                        <p>I used the persona of Kellen to guide my process. He was, in my mind, the typical user. He's ambitious, a dreamer, but has few of the necessary skills needed to become a full-time comedian.</p>
                     </Col>
                     <Col lg={12}>
                         <Image id="user-prof" src={ERD} width="80%" height="auto" alt="The ERD for laugh track" />
-                        <p>Data. Data data data. This was crucial to get right and I didn't. This was my second stab at an ERD and I learned a ton from it. The concept seemed to click right after I made my last mistake pairing data up in my database. Perfect timing.</p>
-
-                    </Col>
-                </Row>
+                        <p>The ERD was another pain point for me. I learned quickly that this is a place to take your time and get it right. I did not and wasted a decent amount of time fixing my mistakes in the database. It's not sexy or attractive, but it is worthwhile.</p>
                 <Row className="justify-content-md-center">
                     <Col>
-                        {/* <div id="lt-process">
-                            <Image src={ERD} width="30%" height="auto" />
-                            <h6>I made an ERD</h6>
-                            <div id="wireframe-group">
-                                <Image src={login} />
-                                <Image src={message} />
-                                <Image src={journal} />
-                                <Image src={event} />
-                                <Image src={following} />
-                            </div>
-                            <h6>I wireframed my site</h6>
-                            <Image width="50%" height="auto" src={colors} />
-                            <h6>I found my color pallette</h6>
-                            <Image width="50%" height="auto" src={Grav} />
-                            <h6>I figured out the perfect font</h6>
-                        </div> */}
-                        <h5>Meet Kellen. </h5>
-                        <Image id="user-prof" src={Kellen} width="100%" height="auto" alt="Kellen's user profile" />
-
-                        <p>Kellen could use a little help. Like many comedians, Kellen has big dreams but few of the necessary skills you need to succeed as an adult, much less become famous. But Kellen is very funny and has a ton of potential.</p>
+                        <h3 >Coding</h3>
+                        <p>I was nervous to start, but decided to get things started with what I knew how to do. I made a homepage with a nav bar. I filled out a database with temporary information and got it working. I listed out that information on pages. The messaging feature ended up being more simple than I was afraid of, just a matter of fetching, listing and a simple form. A huge relief, you can imagine.</p>
                         <br />
-                        <h4 id="h4">How can Laugh Track help Kellen as a comedian? </h4>
-                        <p>Thanks for asking. Check out <a href="https://www.loom.com/share/a92363cd10444721b327f51ce64dbc17" target="_blank">this presentation</a> for a guided tour of the site, from Kellen's perspective. </p>
-                        <h5>Lessons Learned</h5>
-                        <p>This site was a blast to make. The biggest takeaway I had was seeing my progression from day 1 of the class to then. I could see how much I had learned in that time. 3 months before I was unsure of what HTML tags would be appropriate in which places. I assumed I would never understand Git or Github. Javascript functions seemed un-graspable. But I had proof that none of that was true. I did it. I made a real website! I learned React, I mastered a component library, I had an idea that turned into a real life application. I received a lesson in knowing I can. I hit MVP early and got to work on stretch goals. I learned that I could. </p>
+                        <p>The first struggle I encountered was creating friends. I had all of the users laid out, but didn't quite know how to translate users to friends.</p>
+                        <Image id="user-prof" src={code} width="100%" height="auto" alt="add user button" />
+                        <br />
+                        <p>admittedly I'm writing this case study 3 months later, and this is not how I would write it today. There's definitely some redundant data. But I was proud of myself! I organized the data so the active user was not the userId. That was because if I did the opposite and fetched from that data, the active user would show in their own friend's list. I felt clever and like I had conquered a previously inconceivable task.</p>
+                        <br />
+                        <p>Related to the friends, I wanted to make sure that if you added a user as a friend, they wouldn't show in the user list again. I knew this would entail the use of a filter function, and I was intimidated. It took a while to grasp, and I even did a few tutorials to try to understand the filter function better, but I got it working!</p>
+                        <Image id="user-prof" src={codeProud} width="100%" height="auto" alt="add user button" />
+                        <br />
+                        <h3 >Wrapping Up</h3>
+                        <p>Looking back, if I did this project again I would do it very differently. There would be more UI/UX planning, I would have done a mock up, user testing and made different design choices entirely. But I'm still very proud of this social media I created. It was my first big solo project and set me up well to learn more in the second half of my class. The mistakes, the triumphs and the lessons were all worthwhile. </p>
+                        <br />
+                        <p>I have looked back at this project many times and every time I have the thought "I should change the way that looks." But I'm not going to. It's a great reminder of the growth I've made in a short time. Every mistake is a lesson.</p>
+                        <br />
                     </Col>
                 </Row>
-                {/* </div> */}
-                {/* </div> */}
+
+                    </Col>
+                </Row>
             </Container>
         </div >
 

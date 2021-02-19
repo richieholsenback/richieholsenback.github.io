@@ -111,14 +111,13 @@ export const Ourflix = () => {
                         <br />
                         <p>Firebase took a lot of time to figure out. I am used to RESTful API calls where you can embed and expand given the ID in one data subset matched the naming of another. However, Firebase’s realtime database does not allow for that. I am quite proud of the workaround I figured out.</p>
                         <Image id="user-prof" src={code} width="100%" height="auto" alt="Fetch call from firebase" />
-                        <p>As you can see, I grew very familiar with Oject.keys, Object.values and Object.entries. If you know of a better way to tackle this issue or want to chat more about my solution, <a href="mailto:richieholsenback@gmail.com" target="_blank" rel="noreferrer">please reach out</a>!</p>
+                        <p>As you can see, I grew very familiar with Object.keys, Object.values and Object.entries. If you know of a better way to tackle this issue or want to chat more about my solution, <a href="mailto:richieholsenback@gmail.com" target="_blank" rel="noreferrer">please reach out</a>!</p>
                         <br />
                         <h3 >Wrapping Up</h3>
                         <p>This project was bigger than I imagined it would be. I have never struggled more with code than I did here, but I have also never learned as much than I did with this project. For every struggle, there were 5 more moments where I felt like I triumphed.</p>
                         <br />
                         <p>The end result does not look like the mockup. I wish it did. But I’m still very proud of this project. I had valuable practice with UI/UX techniques, I learned about promises with fetch calls, I learned how to use Firebase. I never would have known that without this project. I’m not finished with it, either. I want to work on this project more and keep learning from it. I want to get the buttons figured out, I want to add groups, I want to make this application as great as it can be.</p>
                         <br />
-
                     </Col>
                 </Row>
             </Container>
