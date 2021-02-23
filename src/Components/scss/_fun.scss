@@ -91,6 +91,12 @@
     text-decoration: underline;
 }
 
+#center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #thanks{
     width: 100% ; 
     height: auto ;
