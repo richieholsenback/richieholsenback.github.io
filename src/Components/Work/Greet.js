@@ -88,8 +88,8 @@ export const GreetingSection = () => {
                 </Row>
                 <Row id="sub-section">
                     <Col lg={8}>
-                        <h2 id="greet-sub-titles">I'm excited to grow and learn.</h2>
-                        <p>I love being bad at things. Knowing that this moment is the worst I'm going to be at an activity is an ideal that pushes me. I want to continue to learn and grow every moment.</p>
+                        <h2 id="greet-sub-titles">User focused. User Tested. User Approved.</h2>
+                        <p>Design should benefit the user. I have developed a passion for creating websites and applications that have the user and their goals in mind from the very beginning. Conducting research about the target user base, creating user personas and journey maps, making experience maps and interaction flows. Designing wireframes, mockups, and prototypes that have information architecture, reactive design, and accessibility in mind. Bringing the site to life using HTML, CSS, Javascript, ReactJS, and Scss. Knowing I can help a user succeed in their goals with my knowledge and skill is an incredible feeling.</p>
                     </Col>
                     <Col lg={4}>
                         <Image src={pc} id="point" />
