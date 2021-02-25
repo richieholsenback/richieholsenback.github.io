@@ -21,7 +21,6 @@
         color: $white;
             @media only screen and (max-width: 730px) {
             font-size: 28px;
-            margin-left: -1.2em;
         }
     }
     #h4 {
@@ -52,13 +51,8 @@
     }
 }
 
-.Exp{
-    margin-left: 4em;
-    margin-right: 4em;
-    @media only screen and (max-width: 730px) {
-        margin-left: 3em;
-        margin-right: 1em;
-    }
+#Exp{
+    
 }
 
 .text-w{

@@ -3,7 +3,7 @@ import "../scss/_resume.scss"
 
 export const Education = () => {
     return (
-        <Row className="Exp">
+        <Row id="Exp">
             <Col>
             <h2 className="section-header text-w">Education</h2>
                 <div className="Edu">
