@@ -20,7 +20,7 @@ export const NavBar = props => {
                                 </Nav.Item>
                                 <Nav.Item className="navbar__item">
                                     <Link className="navbar__link" to="/resume">
-                                        <h4 id="navtext">Resumé</h4>
+                                        <h4 id="navtext">Résumé</h4>
                                     </Link>
                                 </Nav.Item>
                                 <Nav.Item className="navbar__item">

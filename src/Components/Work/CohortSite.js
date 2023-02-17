@@ -46,7 +46,7 @@ export const CohortPage = () => {
                 </Row>
                 <Row>
                     <Col>
-                        <p>I was furloughed, I was bored, and I was broke. The unfortunate part is that I didn’t love the job I had before COVID-19 took it from me, so I really didn’t want to look for another job just like it. I decided I was going to make a change, I was going to teach myself how to code... Until I realized I didn’t know enough to know what I should learn. I looked all around, searching for some help, then I found it. The Nashville Software School had a UI/UX program starting the next month.</p>
+                        <p>I, like many others, had a job prior to the COVID-19 pandemic. Unfortunately I was furloughed and ultimately laid off during the pandemic, like many others. i enjoyed my old job, but didn't quite feel fulfilled by it. I decided I was going to make a change, I was going to teach myself how to code... Until I realized I didn’t know enough to know what I should learn. I love being creative but also being technically minded. What languages should I learn? What principles could I study to make a career in development? I looked all around, searching for some help, then I found it. The Nashville Software School had a UI/UX program starting the next month.</p>
                         <br />
                         <p>Fast forward 4 months and I had just completed the first half of the course. I had a decent knowledge of HTML, CSS, Sass, Javascript, and React. I made my own site, Laugh Track. Now, my classmates and I were tasked with creating a site that showcased all 28 individuals in our cohort.</p>
                         <h3 >The Problem</h3>

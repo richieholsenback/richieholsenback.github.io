@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^12.6.0",
     "bootstrap": "^4.5.3",
     "hash-router": "^0.4.0",
-    "node-sass": "^4.14.1",
     "popper.js": "^1.16.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
@@ -50,6 +49,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.12.12",
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.1.0",
+    "node-sass": "^4.14.1"
   }
 }
